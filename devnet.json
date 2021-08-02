@@ -1,0 +1,87 @@
+{
+  "programID": "DLendnZuSiCK4kBRtX126ogq1uRnb1TGGsjW6Tnw1vMJ",
+  "assets": [
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "mintAddress": "So11111111111111111111111111111111111111112"
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "mintAddress": "4HtknF2xAr9BP6woWUrW9eVZWA8kidDG2MixUsAN9oY9"
+    },
+    {
+      "name": "Serum",
+      "symbol": "SRM",
+      "decimals": 6,
+      "mintAddress": "D5J4Aumr9X9MqSKb1m56hA7wLzCJDrBrt1qWyRavJA6T"
+    }
+  ],
+  "markets": [
+    {
+      "name": "main",
+      "address": "AZjhYdqP1V6FZRtBsy8e1k7QeXQ3kDhpD2EegpS98zDe",
+      "authorityAddress": "2XMT5WDHAn8xm8gntPnhFezgu2G1y5CkBLvLPGnf99MP",
+      "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
+      "reserves": [
+        {
+          "asset": "SOL",
+          "address": "9tiGVs9C5sqeq9hryLtcvk6acdgLrfY7aGozdVMeNYnY",
+          "collateralMintAddress": "CCn36o1iShREHcZGxGdyXQq8rtBNLQNQMYE1FLH8potC",
+          "collateralSupplyAddress": "BPMWdB1KuZbKeKfuQxmegpac8vVB4CrhYXsyeWFppubt",
+          "liquidityAddress": "66csEwwaYTJjY4gymjpjudPKrdaHi5yTDQi1aNxq1twq",
+          "liquidityFeeReceiverAddress": "DBJiTKcgpdncUDxuMhfCeQkkGjt3NaVMZY5aPiVKuQx3",
+          "userSupplyCap": 4,
+          "reserveSupplyCap": 40000
+        },
+        {
+          "asset": "USDC",
+          "address": "2TvKqVGXaDj4Jw3PGdEj5KPZtJu1pAPNLU3oJaGhhgZT",
+          "collateralMintAddress": "4ENz9Qoifa4iJqZ1eQEcJHNWr5KBSfVGjRz6D5ES7Y51",
+          "collateralSupplyAddress": "DdT8cGaiAeD1SNzZveaSZetY3f2aQu7gy25RsZz1Bmh8",
+          "liquidityAddress": "G8LJuvEEV4hAMCkvqTjkDMeZRh77y9YeWeyFitu4Td1Q",
+          "liquidityFeeReceiverAddress": "EVwMDtaStyJgbLubesysYuadKmEHUrHUyJCmb5qc7CBx",
+          "userSupplyCap": 10000,
+          "reserveSupplyCap": 1000000
+        },
+        {
+          "asset": "SRM",
+          "address": "6eLXJYgctho8ZYGPDiPMPPSJArByk88dFDxPzeafE4DP",
+          "collateralMintAddress": "8jFyT24msbzrmPddtCH8aTPNUrqHmZ7YnvveQzRGsFag",
+          "collateralSupplyAddress": "Gu3jo4EQk8bh9L2LZ78fXvmL7vWg2UcmrQuf7q5vBQB9",
+          "liquidityAddress": "AD6KJpaFVpV21Ze9PxjqJR9Eoww9YbdfTRbRjLMCoP99",
+          "liquidityFeeReceiverAddress": "Aa3zVhbyaZ7TdByy2F8YyCR3QqpZ5S4uNtYST4JmcNfJ",
+          "userSupplyCap": 2500,
+          "reserveSupplyCap": 300000
+        }
+      ]
+    }
+  ],
+  "oracles": {
+    "pythProgramID": "gSbePebfvPy7tRqimPoVecS2UsBvYv46ynrzWocc92s",
+    "switchboardProgramID": "7azgmy1pFXHikv36q1zZASvFq5vFa39TT9NweVugKKTU",
+    "assets": [
+      {
+        "asset": "SOL",
+        "oracleAddress": "3Mnn2fX6rQyUsyELYms1sBJyChWofzSNRoqYzvgMVz5E",
+        "priceAddress": "J83w4HKfqxwcq3BEMMkPFSppX3gqekLyLJBexebFVkix",
+        "switchboardFeedAddress": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL"
+      },
+      {
+        "asset": "USDC",
+        "oracleAddress": "6NpdXrQEpmDZ3jZKmM2rhdmkd3H6QAk23j2x8bkXcHKA",
+        "priceAddress": "5SSkXsEKQepHHAewytPVwdej4epN1nxgLVM84L4KXgy7",
+        "switchboardFeedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb"
+      },
+      {
+        "asset": "SRM",
+        "oracleAddress": "6MEwdxe4g1NeAF9u6KDG14anJpFsVEa2cvr5H6iriFZ8",
+        "priceAddress": "992moaMQKs32GKZ9dxi8keyM2bUmbrwBZpK4p2K6X5Vs",
+        "switchboardFeedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH"
+      }
+    ]
+  }
+}
