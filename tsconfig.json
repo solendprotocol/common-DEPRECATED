@@ -1,20 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
     "declaration": true,
-    "declarationDir": "declarations",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "allowJs": true,
     "isolatedModules": true,
-    "baseUrl": "src",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true
-  },
-  "include": ["src"]
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "strict": true
+  }
 }
