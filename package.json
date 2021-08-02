@@ -6,11 +6,15 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "exit 0"
   },
   "repository": "git@github.com:solendprotocol/common.git",
   "author": "nope@solend.fi",
   "license": "MIT",
+  "publishConfig": {
+    "solendprotocol:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "typescript": "^4.3.5"
   }
