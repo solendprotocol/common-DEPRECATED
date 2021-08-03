@@ -1,0 +1,87 @@
+{
+  "programID": "DLendnZuSiCK4kBRtX126ogq1uRnb1TGGsjW6Tnw1vMJ",
+  "assets": [
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "mintAddress": "So11111111111111111111111111111111111111112"
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "mintAddress": "$USDC_MINT_ADDRESS"
+    },
+    {
+      "name": "Serum",
+      "symbol": "SRM",
+      "decimals": 6,
+      "mintAddress": "$SRM_MINT_ADDRESS"
+    }
+  ],
+  "markets": [
+    {
+      "name": "main",
+      "address": "$MAIN_MARKET_ADDRESS",
+      "authorityAddress": "$MAIN_MARKET_AUTHORITY_ADDRESS",
+      "transferAuthorityAddress": "$MAIN_MARKET_TRANSFER_AUTHORITY_ADDRESS",
+      "reserves": [
+        {
+          "asset": "SOL",
+          "address": "$SOL_RESERVE_ADDRESS",
+          "collateralMintAddress": "$SOL_RESERVE_COLLATERAL_MINT_ADDRESS",
+          "collateralSupplyAddress": "$SOL_RESERVE_COLLATERAL_SUPPLY_ADDRESS",
+          "liquidityAddress": "$SOL_RESERVE_LIQUIDITY_ADDRESS",
+          "liquidityFeeReceiverAddress": "$SOL_RESERVE_LIQUIDITY_FEE_RECEIVER_ADDRESS",
+          "userSupplyCap": 4,
+          "reserveSupplyCap": 40000
+        },
+        {
+          "asset": "USDC",
+          "address": "$USDC_RESERVE_ADDRESS",
+          "collateralMintAddress": "$USDC_RESERVE_COLLATERAL_MINT_ADDRESS",
+          "collateralSupplyAddress": "$USDC_RESERVE_COLLATERAL_SUPPLY_ADDRESS",
+          "liquidityAddress": "$USDC_RESERVE_LIQUIDITY_ADDRESS",
+          "liquidityFeeReceiverAddress": "$USDC_RESERVE_LIQUIDITY_FEE_RECEIVER_ADDRESS",
+          "userSupplyCap": 10000,
+          "reserveSupplyCap": 1000000
+        },
+        {
+          "asset": "SRM",
+          "address": "$SRM_RESERVE_ADDRESS",
+          "collateralMintAddress": "$SRM_RESERVE_COLLATERAL_MINT_ADDRESS",
+          "collateralSupplyAddress": "$SRM_RESERVE_COLLATERAL_SUPPLY_ADDRESS",
+          "liquidityAddress": "$SRM_RESERVE_LIQUIDITY_ADDRESS",
+          "liquidityFeeReceiverAddress": "$SRM_RESERVE_LIQUIDITY_FEE_RECEIVER_ADDRESS",
+          "userSupplyCap": 2500,
+          "reserveSupplyCap": 300000
+        }
+      ]
+    }
+  ],
+  "oracles": {
+    "pythProgramID": "gSbePebfvPy7tRqimPoVecS2UsBvYv46ynrzWocc92s",
+    "switchboardProgramID": "7azgmy1pFXHikv36q1zZASvFq5vFa39TT9NweVugKKTU",
+    "assets": [
+      {
+        "asset": "SOL",
+        "oracleAddress": "3Mnn2fX6rQyUsyELYms1sBJyChWofzSNRoqYzvgMVz5E",
+        "priceAddress": "J83w4HKfqxwcq3BEMMkPFSppX3gqekLyLJBexebFVkix",
+        "switchboardFeedAddress": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL"
+      },
+      {
+        "asset": "USDC",
+        "oracleAddress": "6NpdXrQEpmDZ3jZKmM2rhdmkd3H6QAk23j2x8bkXcHKA",
+        "priceAddress": "5SSkXsEKQepHHAewytPVwdej4epN1nxgLVM84L4KXgy7",
+        "switchboardFeedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb"
+      },
+      {
+        "asset": "SRM",
+        "oracleAddress": "6MEwdxe4g1NeAF9u6KDG14anJpFsVEa2cvr5H6iriFZ8",
+        "priceAddress": "992moaMQKs32GKZ9dxi8keyM2bUmbrwBZpK4p2K6X5Vs",
+        "switchboardFeedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH"
+      }
+    ]
+  }
+}
