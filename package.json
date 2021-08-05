@@ -1,6 +1,6 @@
 {
   "name": "@solendprotocol/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.ts",
   "module": "dist/index.ts",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "prepublish": "npm build",
+    "prepublish": "yarn build",
     "precommit": "yarn build; git add dist",
     "build": "tsc",
     "test": "exit 0"
