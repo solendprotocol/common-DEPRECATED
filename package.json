@@ -4,6 +4,9 @@
   "main": "dist/index.ts",
   "module": "dist/index.ts",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",

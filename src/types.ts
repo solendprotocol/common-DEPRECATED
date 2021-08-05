@@ -39,5 +39,4 @@ export interface Reserve {
   liquidityAddress: string;
   liquidityFeeReceiverAddress: string;
   userSupplyCap: number;
-  reserveSupplyCap: number;
 }
