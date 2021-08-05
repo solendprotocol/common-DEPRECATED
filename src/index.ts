@@ -1,5 +1,4 @@
-import * as devnetConfig from './devnet.json';
+import * as devnetConfig from "./devnet.json";
 
-
-export * from './types'
-export {devnetConfig};
+export * from "./types";
+export { devnetConfig };

@@ -8,10 +8,14 @@
     "dist"
   ],
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "npm build",
+    "precommit": "yarn build; git add dist",
     "build": "tsc",
     "test": "exit 0"
   },
+  "pre-commit": [
+    "precommit"
+  ],
   "repository": "git@github.com:solendprotocol/common.git",
   "author": "nope@solend.fi",
   "license": "MIT",
@@ -19,6 +23,7 @@
     "solendprotocol:registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
+    "pre-commit": "^1.2.2",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   },
