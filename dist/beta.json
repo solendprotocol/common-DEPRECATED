@@ -1,0 +1,105 @@
+{
+    "programID": "BLendhFh4HGnycEDDFhbeFEUYLP4fXB5tTHMoTX8Dch5",
+    "assets": [
+        {
+            "name": "Solana",
+            "symbol": "SOL",
+            "decimals": 9,
+            "mintAddress": "So11111111111111111111111111111111111111112"
+        },
+        {
+            "name": "USDC",
+            "symbol": "USDC",
+            "decimals": 6,
+            "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "decimals": 6,
+            "mintAddress": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk"
+        },
+        {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "decimals": 6,
+            "mintAddress": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E"
+        }
+    ],
+    "markets": [
+        {
+            "name": "main",
+            "address": "HB1cecsgnFPBfKxEDfarVtKXEARWuViJKCqztWiFB3Uk",
+            "authorityAddress": "G9Ed4rdvrBypMPAz2QH6Pi9VZADkLuvo9sPvbTvHmVTU",
+            "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
+            "reserves": [
+                {
+                    "asset": "SOL",
+                    "address": "h346nBr4UmAss3LjbFGBugjJHNcegQFw9ih6g9woNme",
+                    "collateralMintAddress": "J6SpsP89aKGQDJuJkJBKaGibC4sKyxYr7uxd7ucVhRtM",
+                    "collateralSupplyAddress": "LdxXGSYwT1hpqiKjnAe3f5hSE99nQQyTR5YveXLP5Tm",
+                    "liquidityAddress": "6W9731rekN5Uk6bzJcr6fDYVw1d2ekV4xwTokQxFKkEY",
+                    "liquidityFeeReceiverAddress": "DBVXtyhTbucqWrbbnpj8MA1mtBtLmT2SxjzuVkg6rMem",
+                    "userSupplyCap": 250
+                },
+                {
+                    "asset": "USDC",
+                    "address": "AtSBZ8CRwAAkxtvtqdaxQ8YBpebwCio7epjrE2qFHru9",
+                    "collateralMintAddress": "B5FEi7X1LrjM5G8gLH7TjYgfhndSjjXwPqpAqrKTwwSB",
+                    "collateralSupplyAddress": "HPtdBTKcGiUhDn7bRFSpJxF2ydiZXKv59ofCR26LBcSh",
+                    "liquidityAddress": "7aqoS1aoXPsLFZtDAHenL1Tap5syFifySg9WQ79HMxLM",
+                    "liquidityFeeReceiverAddress": "J8CgwpNT1U2EMtB3qUQhNx7eYHyqRmu5ERanaoVNf9z9",
+                    "userSupplyCap": 10000
+                },
+                {
+                    "asset": "ETH",
+                    "address": "BXZdDNXPpSSoLvjtxCUkyxDT19YjsFayKJSTvxVnP6cg",
+                    "collateralMintAddress": "8CSoFf916ewT7XdEhT258Xv1nYftVysAzzjGAFefNyf7",
+                    "collateralSupplyAddress": "6awCWmv5hQpS5CGiHP2CRfZ5J8icia4nNoSinmscheiR",
+                    "liquidityAddress": "5Lg1btk4gg6bnUhKesA9DzKkDsAJ9qDewGAfu8hss3Tf",
+                    "liquidityFeeReceiverAddress": "BmooQkyESW4hrw3ekcuLfGH64CFQu6u36msXqKcsXuZE",
+                    "userSupplyCap": 5
+                },
+                {
+                    "asset": "BTC",
+                    "address": "EjaWKRzUMUzuvLkuT9Z5U7cnqGE8GmW9Z4nSyUwUG4CF",
+                    "collateralMintAddress": "qjmycGjd3iYQnUUfCVLuAq3V9VTmn662imVYzjscoZi",
+                    "collateralSupplyAddress": "83G8awbPh5qQyxAbif8noz1jtFQ6ZaHjPrfFY87sYAdQ",
+                    "liquidityAddress": "8Dv8SB1YNMk12sxTrSXj5UnuT7cMxhA9mkPPR8wwCuii",
+                    "liquidityFeeReceiverAddress": "5NtSdgR2LLNMFs2nYGYtvExDTKhK6DnvAdZkLrpuKjg2",
+                    "userSupplyCap": 0.25
+                }
+            ]
+        }
+    ],
+    "oracles": {
+        "pythProgramID": "FsJ3A3u2vn5cTVofAjvy6y5kwABJAqYWpe4975bi2epH",
+        "switchboardProgramID": "DtmE9D2CSB4L5D6A15mraeEjrGMm6auWVzgaD8hK2tZM",
+        "assets": [
+            {
+                "asset": "SOL",
+                "oracleAddress": "ALP8SdU9oARYVLgLR7LrqMNCYBnhtnQz1cj6bwgwQmgj",
+                "priceAddress": "H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG",
+                "switchboardFeedAddress": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL"
+            },
+            {
+                "asset": "USDC",
+                "oracleAddress": "8GWTTbNiXdmyZREXbjsZBmCRuzdPrW55dnZGDkTRjWvb",
+                "priceAddress": "Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD",
+                "switchboardFeedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb"
+            },
+            {
+                "asset": "BTC",
+                "oracleAddress": "4aDoSXJ5o3AuvL7QFeR6h44jALQfTmUUCTVGDD6aoJTM",
+                "priceAddress": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
+                "switchboardFeedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng"
+            },
+            {
+                "asset": "ETH",
+                "oracleAddress": "EMkxjGC1CQ7JLiutDbfYb7UKb3zm9SJcUmr1YicBsdpZ",
+                "priceAddress": "JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB",
+                "switchboardFeedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz"
+            }
+        ]
+    }
+}

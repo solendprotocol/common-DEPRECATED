@@ -1,4 +1,5 @@
 import * as devnetConfig from "./devnet.json";
+import * as betaConfig from "./beta.json";
 
 export * from "./types";
-export { devnetConfig };
+export { devnetConfig, betaConfig };
