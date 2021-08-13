@@ -39,7 +39,7 @@
                     "collateralMintAddress": "5h6ssFpeDeRbzsEHDbTQNH7nVGgsKrZydxdSTnLm6QdV",
                     "collateralSupplyAddress": "B1ATuYXNkacjjJS78MAmqu8Lu8PvEPt51u4oBasH1m1g",
                     "liquidityAddress": "8UviNr47S8eL6J3WfDxMRa3hvLta1VDJwNWqsDgtN3Cv",
-                    "liquidityFeeReceiverAddress": "7ondB8GfoaxyjBW4awr1Tcr6jPiBtRehTrEfg2U2mciX",
+                    "liquidityFeeReceiverAddress": "5wo1tFpi4HaVKnemqaXeQnBEpezrJXcXvuztYaPhvgC7",
                     "userSupplyCap": 250
                 },
                 {
@@ -48,7 +48,7 @@
                     "collateralMintAddress": "993dVFL2uXWYeoXuEBFXR4BijeXdTv4s6BzsCjJZuwqk",
                     "collateralSupplyAddress": "UtRy8gcEu9fCkDuUrU8EmC7Uc6FZy5NCwttzG7i6nkw",
                     "liquidityAddress": "8SheGtsopRUDzdiD6v6BR9a6bqZ9QwywYQY99Fp5meNf",
-                    "liquidityFeeReceiverAddress": "7QujLQvXYDsHFeGQHuFHb9xLDcmir5Ku8G1sHAsSCzN5",
+                    "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP",
                     "userSupplyCap": 10000
                 },
                 {
@@ -57,7 +57,7 @@
                     "collateralMintAddress": "AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa",
                     "collateralSupplyAddress": "2Yv6ZgZ9ccV8bCYD7T5t2kcAQYRbukMKha6NiPQ8cFAT",
                     "liquidityAddress": "B7Lg4cJZHPLFaGdqfaAWG35KFFaEtBMmRAGf98kNaogt",
-                    "liquidityFeeReceiverAddress": "BxZpNVYQaK4T5jfWt89SbKYHEDcvTJBmhwx7GCKwPGGc",
+                    "liquidityFeeReceiverAddress": "8RS6VQM1RcuVUrQmfHgF3RAUPCbsbmejgbvTLvr8ZgrV",
                     "userSupplyCap": 4
                 },
                 {
@@ -66,7 +66,7 @@
                     "collateralMintAddress": "Gqu3TFmJXfnfSX84kqbZ5u9JjSBVoesaHjfTsaPjRSnZ",
                     "collateralSupplyAddress": "9HrQ9RuRsHjKXuAbZzMHMrYuyq62LjY3B7EBWkM4Uyke",
                     "liquidityAddress": "4jkyJVWQm8NUkiJFJQx6ZJQhfKLGpeZsNrXoT4bAPrRv",
-                    "liquidityFeeReceiverAddress": "Ewpi5Q3KyqCEZPq791s8KUkFZQmjvKchQpsiBcssKLEV",
+                    "liquidityFeeReceiverAddress": "9CjhBpwiQbP2zYnj7PqHTxPPp2BCR4Y4rP4ZPWkqrCQk",
                     "userSupplyCap": 0.25
                 }
             ]

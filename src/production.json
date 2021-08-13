@@ -1,0 +1,105 @@
+{
+  "programID": "So1endDq2YkqhipRh3WViPa8hdiSpxWy6z3Z6tMCpAo",
+  "assets": [
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "mintAddress": "So11111111111111111111111111111111111111112"
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 6,
+      "mintAddress": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk"
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 6,
+      "mintAddress": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E"
+    }
+  ],
+  "markets": [
+    {
+      "name": "main",
+      "address": "4UpD2fh7xH3VP9QQaXtsS1YY3bxzWhtfpks7FatyKvdY",
+      "authorityAddress": "DdZR6zRFiUt4S5mg7AV1uKB2z1f1WzcNYCaTEEWPAuby",
+      "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
+      "reserves": [
+        {
+          "asset": "SOL",
+          "address": "8PbodeaosQP19SjYFx855UMqWxH2HynZLdBXmsrbac36",
+          "collateralMintAddress": "5h6ssFpeDeRbzsEHDbTQNH7nVGgsKrZydxdSTnLm6QdV",
+          "collateralSupplyAddress": "B1ATuYXNkacjjJS78MAmqu8Lu8PvEPt51u4oBasH1m1g",
+          "liquidityAddress": "8UviNr47S8eL6J3WfDxMRa3hvLta1VDJwNWqsDgtN3Cv",
+          "liquidityFeeReceiverAddress": "5wo1tFpi4HaVKnemqaXeQnBEpezrJXcXvuztYaPhvgC7",
+          "userSupplyCap": 250
+        },
+        {
+          "asset": "USDC",
+          "address": "BgxfHJDzm44T7XG68MYKx7YisTjZu73tVovyZSjJMpmw",
+          "collateralMintAddress": "993dVFL2uXWYeoXuEBFXR4BijeXdTv4s6BzsCjJZuwqk",
+          "collateralSupplyAddress": "UtRy8gcEu9fCkDuUrU8EmC7Uc6FZy5NCwttzG7i6nkw",
+          "liquidityAddress": "8SheGtsopRUDzdiD6v6BR9a6bqZ9QwywYQY99Fp5meNf",
+          "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP",
+          "userSupplyCap": 10000
+        },
+        {
+          "asset": "ETH",
+          "address": "3PArRsZQ6SLkr1WERZWyC6AqsajtALMq4C66ZMYz4dKQ",
+          "collateralMintAddress": "AppJPZka33cu4DyUenFe9Dc1ZmZ3oQju6mBn9k37bNAa",
+          "collateralSupplyAddress": "2Yv6ZgZ9ccV8bCYD7T5t2kcAQYRbukMKha6NiPQ8cFAT",
+          "liquidityAddress": "B7Lg4cJZHPLFaGdqfaAWG35KFFaEtBMmRAGf98kNaogt",
+          "liquidityFeeReceiverAddress": "8RS6VQM1RcuVUrQmfHgF3RAUPCbsbmejgbvTLvr8ZgrV",
+          "userSupplyCap": 4
+        },
+        {
+          "asset": "BTC",
+          "address": "GYzjMCXTDue12eUGKKWAqtF5jcBYNmewr6Db6LaguEaX",
+          "collateralMintAddress": "Gqu3TFmJXfnfSX84kqbZ5u9JjSBVoesaHjfTsaPjRSnZ",
+          "collateralSupplyAddress": "9HrQ9RuRsHjKXuAbZzMHMrYuyq62LjY3B7EBWkM4Uyke",
+          "liquidityAddress": "4jkyJVWQm8NUkiJFJQx6ZJQhfKLGpeZsNrXoT4bAPrRv",
+          "liquidityFeeReceiverAddress": "9CjhBpwiQbP2zYnj7PqHTxPPp2BCR4Y4rP4ZPWkqrCQk",
+          "userSupplyCap": 0.25
+        }
+      ]
+    }
+  ],
+  "oracles": {
+    "pythProgramID": "FsJ3A3u2vn5cTVofAjvy6y5kwABJAqYWpe4975bi2epH",
+    "switchboardProgramID": "DtmE9D2CSB4L5D6A15mraeEjrGMm6auWVzgaD8hK2tZM",
+    "assets": [
+      {
+        "asset": "SOL",
+        "oracleAddress": "ALP8SdU9oARYVLgLR7LrqMNCYBnhtnQz1cj6bwgwQmgj",
+        "priceAddress": "H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG",
+        "switchboardFeedAddress": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL"
+      },
+      {
+        "asset": "USDC",
+        "oracleAddress": "8GWTTbNiXdmyZREXbjsZBmCRuzdPrW55dnZGDkTRjWvb",
+        "priceAddress": "Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD",
+        "switchboardFeedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb"
+      },
+      {
+        "asset": "BTC",
+        "oracleAddress": "4aDoSXJ5o3AuvL7QFeR6h44jALQfTmUUCTVGDD6aoJTM",
+        "priceAddress": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
+        "switchboardFeedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng"
+      },
+      {
+        "asset": "ETH",
+        "oracleAddress": "EMkxjGC1CQ7JLiutDbfYb7UKb3zm9SJcUmr1YicBsdpZ",
+        "priceAddress": "JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB",
+        "switchboardFeedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz"
+      }
+    ]
+  }
+}
