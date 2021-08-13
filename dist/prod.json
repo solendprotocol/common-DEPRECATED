@@ -58,7 +58,7 @@
                     "collateralSupplyAddress": "2Yv6ZgZ9ccV8bCYD7T5t2kcAQYRbukMKha6NiPQ8cFAT",
                     "liquidityAddress": "B7Lg4cJZHPLFaGdqfaAWG35KFFaEtBMmRAGf98kNaogt",
                     "liquidityFeeReceiverAddress": "BxZpNVYQaK4T5jfWt89SbKYHEDcvTJBmhwx7GCKwPGGc",
-                    "userSupplyCap": 5
+                    "userSupplyCap": 4
                 },
                 {
                     "asset": "BTC",
