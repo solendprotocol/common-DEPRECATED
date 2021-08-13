@@ -10,7 +10,7 @@
   "scripts": {
     "prepublish": "yarn build",
     "precommit": "yarn build; git add dist",
-    "build": "tsc",
+    "build": "rm -rf dist/; tsc",
     "test": "exit 0"
   },
   "pre-commit": [
