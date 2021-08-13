@@ -73,37 +73,31 @@
         }
     ],
     "oracles": {
-        "pythProgramID": "gSbePebfvPy7tRqimPoVecS2UsBvYv46ynrzWocc92s",
-        "switchboardProgramID": "7azgmy1pFXHikv36q1zZASvFq5vFa39TT9NweVugKKTU",
+        "pythProgramID": "FsJ3A3u2vn5cTVofAjvy6y5kwABJAqYWpe4975bi2epH",
+        "switchboardProgramID": "DtmE9D2CSB4L5D6A15mraeEjrGMm6auWVzgaD8hK2tZM",
         "assets": [
             {
                 "asset": "SOL",
-                "oracleAddress": "3Mnn2fX6rQyUsyELYms1sBJyChWofzSNRoqYzvgMVz5E",
-                "priceAddress": "J83w4HKfqxwcq3BEMMkPFSppX3gqekLyLJBexebFVkix",
+                "oracleAddress": "ALP8SdU9oARYVLgLR7LrqMNCYBnhtnQz1cj6bwgwQmgj",
+                "priceAddress": "H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG",
                 "switchboardFeedAddress": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL"
             },
             {
                 "asset": "USDC",
-                "oracleAddress": "6NpdXrQEpmDZ3jZKmM2rhdmkd3H6QAk23j2x8bkXcHKA",
-                "priceAddress": "5SSkXsEKQepHHAewytPVwdej4epN1nxgLVM84L4KXgy7",
+                "oracleAddress": "8GWTTbNiXdmyZREXbjsZBmCRuzdPrW55dnZGDkTRjWvb",
+                "priceAddress": "Gnt27xtC473ZT2Mw5u8wZ68Z3gULkSTb5DuxJy7eJotD",
                 "switchboardFeedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb"
             },
             {
-                "asset": "SRM",
-                "oracleAddress": "6MEwdxe4g1NeAF9u6KDG14anJpFsVEa2cvr5H6iriFZ8",
-                "priceAddress": "992moaMQKs32GKZ9dxi8keyM2bUmbrwBZpK4p2K6X5Vs",
-                "switchboardFeedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH"
-            },
-            {
                 "asset": "BTC",
-                "oracleAddress": "3m1y5h2uv7EQL3KaJZehvAJa4yDNvgc5yAdL9KPMKwvk",
-                "priceAddress": "HovQMDrbAgAYPCmHVSrezcSmkMtXSSUsLDFANExrZh2J",
+                "oracleAddress": "4aDoSXJ5o3AuvL7QFeR6h44jALQfTmUUCTVGDD6aoJTM",
+                "priceAddress": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
                 "switchboardFeedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng"
             },
             {
                 "asset": "ETH",
-                "oracleAddress": "2ciUuGZiee5macAMeQ7bHGTJtwcYTgnt6jdmQnnKZrfu",
-                "priceAddress": "EdVCmQ9FSPcVe5YySXDPCRmc8aDQLKJ9xvYBMZPie1Vw",
+                "oracleAddress": "EMkxjGC1CQ7JLiutDbfYb7UKb3zm9SJcUmr1YicBsdpZ",
+                "priceAddress": "JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB",
                 "switchboardFeedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz"
             }
         ]
