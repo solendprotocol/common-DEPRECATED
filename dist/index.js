@@ -10,9 +10,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.betaConfig = exports.devnetConfig = void 0;
+exports.prodConfig = exports.betaConfig = exports.devnetConfig = void 0;
 var devnetConfig = require("./devnet.json");
 exports.devnetConfig = devnetConfig;
 var betaConfig = require("./beta.json");
 exports.betaConfig = betaConfig;
+var prodConfig = require("./prod.json");
+exports.prodConfig = prodConfig;
 __exportStar(require("./types"), exports);
