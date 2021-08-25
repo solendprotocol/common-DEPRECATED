@@ -20,10 +20,10 @@
             "mintAddress": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk"
         },
         {
-            "name": "Bitcoin",
-            "symbol": "BTC",
+            "name": "Serum",
+            "symbol": "SRM",
             "decimals": 6,
-            "mintAddress": "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E"
+            "mintAddress": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"
         }
     ],
     "markets": [
@@ -68,6 +68,15 @@
                     "liquidityAddress": "4jkyJVWQm8NUkiJFJQx6ZJQhfKLGpeZsNrXoT4bAPrRv",
                     "liquidityFeeReceiverAddress": "9CjhBpwiQbP2zYnj7PqHTxPPp2BCR4Y4rP4ZPWkqrCQk",
                     "userSupplyCap": 1
+                },
+                {
+                    "asset": "SRM",
+                    "address": "5suXmvdbKQ98VonxGCXqViuWRu8k4zgZRxndYKsH2fJg",
+                    "collateralMintAddress": "4CxGuD2NMr6zM8f18gr6kRhgd748pnmkAhkY1YJtkup1",
+                    "collateralSupplyAddress": "D52HyVBEMWy2WBptV5zsPuYS8W8C62gYjYKuVzaK1ruM",
+                    "liquidityAddress": "4JHVBtmMPFyRpidxHtM8gVjGuLBXhaXCF4jNFFKBdGpb",
+                    "liquidityFeeReceiverAddress": "B4M9AiE8rRCe7d9tLHGQSBiuniMGmigMs9QBJNuMKNo1",
+                    "userSupplyCap": 1
                 }
             ]
         }
@@ -99,6 +108,12 @@
                 "oracleAddress": "EMkxjGC1CQ7JLiutDbfYb7UKb3zm9SJcUmr1YicBsdpZ",
                 "priceAddress": "JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB",
                 "switchboardFeedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz"
+            },
+            {
+                "asset": "SRM",
+                "oracleAddress": "6T1eJbKWyhZXEjmuBej9gPk3SRTagzrEQovCSwAWD57P",
+                "priceAddress": "3NBReDRTLKMQEKiLD5tGcx4kXbTf88b7f2xLS9UuGjym",
+                "switchboardFeedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH"
             }
         ]
     }
