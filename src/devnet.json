@@ -17,7 +17,7 @@
       "name": "Serum",
       "symbol": "SRM",
       "decimals": 6,
-      "mintAddress": "D5J4Aumr9X9MqSKb1m56hA7wLzCJDrBrt1qWyRavJA6T"
+      "mintAddress": "GLnwzTMdvETds6JrLoAVxTCZGaLNtJufp1QZ5HAiLb5q"
     },
     {
       "name": "USDT",
@@ -80,6 +80,15 @@
           "liquidityAddress": "EoUGEC2HxF6X6DJWbS3KCdtFnLaQgS6YiQjsdYc9Zs3d",
           "liquidityFeeReceiverAddress": "97d6hUpWY4YMMmqyTLf73LBK57patB9YrU4updyhkwiG",
           "userSupplyCap": 0.25
+        },
+        {
+          "asset": "SRM",
+          "address": "5YKmMZcuWEdF5NavNK4MgKPRhnhw6jq22zwcdh1dvxbd",
+          "collateralMintAddress": "GVje4h3Sy8mFZgEAdpacZLq7jRLczkU9HcuAZSr6f9YM",
+          "collateralSupplyAddress": "8ke4e75cXjss36J6B6d31GB6EH7rPmcJU7TNzYETDZvr",
+          "liquidityAddress": "7ZgqrvQ66xjqTptxQWwrjA9hADXn5CtCXzMxPxsHJpec",
+          "liquidityFeeReceiverAddress": "BKTTY5gibk5UQRMvPHwva7Y1qU5JySNQQddpTSPALunS",
+          "userSupplyCap": 2000
         }
       ]
     }
