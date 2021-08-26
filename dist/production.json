@@ -30,6 +30,60 @@
             "symbol": "SRM",
             "decimals": 6,
             "mintAddress": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"
+        },
+        {
+            "name": "USDT",
+            "symbol": "USDT",
+            "decimals": 6,
+            "mintAddress": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+        },
+        {
+            "name": "Mercurial",
+            "symbol": "MER",
+            "decimals": 6,
+            "mintAddress": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K"
+        },
+        {
+            "name": "FTT",
+            "symbol": "FTT",
+            "decimals": 6,
+            "mintAddress": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3"
+        },
+        {
+            "name": "Saber",
+            "symbol": "SBR",
+            "decimals": 6,
+            "mintAddress": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1"
+        },
+        {
+            "name": "UST",
+            "symbol": "UST",
+            "decimals": 9,
+            "mintAddress": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm"
+        },
+        {
+            "name": "Raydium",
+            "symbol": "RAY",
+            "decimals": 6,
+            "mintAddress": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+        },
+        {
+            "name": "Mango",
+            "symbol": "MNGO",
+            "decimals": 6,
+            "mintAddress": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac"
+        },
+        {
+            "name": "PAI",
+            "symbol": "PAI",
+            "decimals": 6,
+            "mintAddress": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS"
+        },
+        {
+            "name": "Marinade staked SOL",
+            "symbol": "mSOL",
+            "decimals": 9,
+            "mintAddress": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
         }
     ],
     "markets": [
@@ -104,22 +158,46 @@
                 "switchboardFeedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb"
             },
             {
-                "asset": "BTC",
-                "oracleAddress": "4aDoSXJ5o3AuvL7QFeR6h44jALQfTmUUCTVGDD6aoJTM",
-                "priceAddress": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
-                "switchboardFeedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng"
-            },
-            {
                 "asset": "ETH",
                 "oracleAddress": "EMkxjGC1CQ7JLiutDbfYb7UKb3zm9SJcUmr1YicBsdpZ",
                 "priceAddress": "JBu1AL4obBcCMqKBBxhpWCNUt136ijcuMZLFvTP7iWdB",
                 "switchboardFeedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz"
             },
             {
+                "asset": "BTC",
+                "oracleAddress": "4aDoSXJ5o3AuvL7QFeR6h44jALQfTmUUCTVGDD6aoJTM",
+                "priceAddress": "GVXRSBjFk6e6J3NbVPXohDJetcTjaeeuykUpbQF8UoMU",
+                "switchboardFeedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng"
+            },
+            {
                 "asset": "SRM",
                 "oracleAddress": "6T1eJbKWyhZXEjmuBej9gPk3SRTagzrEQovCSwAWD57P",
                 "priceAddress": "3NBReDRTLKMQEKiLD5tGcx4kXbTf88b7f2xLS9UuGjym",
                 "switchboardFeedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH"
+            },
+            {
+                "asset": "USDT",
+                "oracleAddress": "Av6XyAMJnyi68FdsKSPYgzfXGjYrrt6jcAMwtvzLCqaM",
+                "priceAddress": "3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL",
+                "switchboardFeedAddress": "5mp8kbkTYwWWCsKSte8rURjTuyinsqBpJ9xAQsewPDD"
+            },
+            {
+                "asset": "MER",
+                "oracleAddress": "6QAiy88ry7A5RKXDrLc8RCtwkeA8JU1JVqCNVugXa7R2",
+                "priceAddress": "G4AQpTYKH1Fmg38VpFQbv6uKYQMpRhJzNPALhp7hqdrs",
+                "switchboardFeedAddress": "5pHX3fd81SpGywzsw4R12L3Xu3qd418h1PcnHpQAiMWA"
+            },
+            {
+                "asset": "FTT",
+                "oracleAddress": "E7ymZgACaSd1fYLf2V7WkAmFkpRiWfAjm49R7bceny9K",
+                "priceAddress": "8JPJJkmDScpcNmBRKGZuPuG2GYAveQgP3t5gFuMymwvF",
+                "switchboardFeedAddress": "6SqRewrr5f4ycWy7NvLmNgpXJbhwXrtTc1erL9aq2gP3"
+            },
+            {
+                "asset": "SBR",
+                "oracleAddress": "3nuELNFBkbXqsXtnCzphRPCX6toKKYxVDnkyr9pTwB1K",
+                "priceAddress": "8Td9VML1nHxQK6M8VVyzsHo32D7VBk72jSpa9U861z2A",
+                "switchboardFeedAddress": "Lp3VNoRQi699VZe6u59TV8J38ELEUzxkaisoWsDuJgB"
             }
         ]
     }
