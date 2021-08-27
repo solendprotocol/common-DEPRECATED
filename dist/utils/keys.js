@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RedisKeys = void 0;
 class RedisKeys {
-    minedLiquidityKey(obligationID) {
-        return `mined_liquidity_${obligationID}`;
+    farmScoreKey(obligationID) {
+        return `farm_score_${obligationID}`;
     }
 }
 exports.RedisKeys = RedisKeys;

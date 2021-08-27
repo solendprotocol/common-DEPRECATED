@@ -14,21 +14,20 @@ class SolendRedisClient {
         this.client = new redis_1.RedisClient(redisConfig);
         this.redisKeys = new keys_1.RedisKeys();
     }
-    getMinedLiquidity(obligationID) {
-        const key = this.redisKeys.minedLiquidityKey(obligationID);
+    getFarmScore(obligationID) {
         return new Promise((resolve, reject) => {
-            const key = this.redisKeys.minedLiquidityKey(obligationID);
+            const key = this.redisKeys.farmScoreKey(obligationID);
             this.client.hgetall(key, (err, redisData) => {
                 if (err) {
                     return reject(err);
                 }
-                resolve(models_1.MinedLiquidity.fromRedisData(obligationID, redisData));
+                resolve(models_1.FarmScore.fromRedisData(obligationID, redisData));
             });
         });
     }
-    writeMinedLiquidity(minedLiquidity) {
-        const key = this.redisKeys.minedLiquidityKey(minedLiquidity.obligationID);
-        return this.client.hmset(key, minedLiquidity.toRedisData());
+    writeFarmScore(farmScore) {
+        const key = this.redisKeys.farmScoreKey(farmScore.obligationID);
+        return this.client.hmset(key, farmScore.toRedisData());
     }
 }
 exports.SolendRedisClient = SolendRedisClient;

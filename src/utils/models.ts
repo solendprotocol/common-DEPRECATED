@@ -1,4 +1,4 @@
-export class MinedLiquidity {
+export class FarmScore {
   obligationID: string;
   balance: number;
   debt: number;
@@ -20,7 +20,7 @@ export class MinedLiquidity {
       debt = Number(redisData["debt"]!);
       score= Number(redisData["score"]!);
     }
-    return new MinedLiquidity(obligationID, balance, debt, score);
+    return new FarmScore(obligationID, balance, debt, score);
   }
 
   toRedisData(): {[key: string]: string} {

@@ -1,5 +1,5 @@
 export class RedisKeys {
-  minedLiquidityKey(obligationID: string): string {
-    return `mined_liquidity_${obligationID}`;
+  farmScoreKey(obligationID: string): string {
+    return `farm_score_${obligationID}`;
   }
 }

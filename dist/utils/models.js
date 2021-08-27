@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MinedLiquidity = void 0;
-class MinedLiquidity {
+exports.FarmScore = void 0;
+class FarmScore {
     constructor(obligationID, balance, debt, score) {
         this.obligationID = obligationID;
         this.balance = balance;
@@ -17,7 +17,7 @@ class MinedLiquidity {
             debt = Number(redisData["debt"]);
             score = Number(redisData["score"]);
         }
-        return new MinedLiquidity(obligationID, balance, debt, score);
+        return new FarmScore(obligationID, balance, debt, score);
     }
     toRedisData() {
         return {
@@ -28,4 +28,4 @@ class MinedLiquidity {
         };
     }
 }
-exports.MinedLiquidity = MinedLiquidity;
+exports.FarmScore = FarmScore;

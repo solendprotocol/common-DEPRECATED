@@ -1,8 +1,8 @@
-import { MinedLiquidity } from './models';
+import { FarmScore } from './models';
 export declare class SolendRedisClient {
     private client;
     private redisKeys;
     constructor(host: string, port: number);
-    getMinedLiquidity(obligationID: string): Promise<MinedLiquidity>;
-    writeMinedLiquidity(minedLiquidity: MinedLiquidity): boolean;
+    getFarmScore(obligationID: string): Promise<FarmScore>;
+    writeFarmScore(farmScore: FarmScore): boolean;
 }

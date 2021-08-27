@@ -1,5 +1,5 @@
 import { ClientOpts, RedisClient } from 'redis'
-import { MinedLiquidity } from './models'
+import { FarmScore } from './models'
 import { RedisKeys } from './keys'
 
 
@@ -17,21 +17,20 @@ export class SolendRedisClient {
     this.redisKeys = new RedisKeys();
   }
 
-  getMinedLiquidity(obligationID: string): Promise<MinedLiquidity> {
-    const key = this.redisKeys.minedLiquidityKey(obligationID);
+  getFarmScore(obligationID: string): Promise<FarmScore> {
     return new Promise((resolve, reject) => {
-      const key = this.redisKeys.minedLiquidityKey(obligationID);
+      const key = this.redisKeys.farmScoreKey(obligationID);
       this.client.hgetall(key, (err: any, redisData: { [key: string]: string; }) => {
       if (err) {
         return reject(err);
       }
-      resolve(MinedLiquidity.fromRedisData(obligationID, redisData));
+      resolve(FarmScore.fromRedisData(obligationID, redisData));
       });
     });
   }
 
-  writeMinedLiquidity(minedLiquidity: MinedLiquidity): boolean {
-    const key = this.redisKeys.minedLiquidityKey(minedLiquidity.obligationID);
-    return this.client.hmset(key, minedLiquidity.toRedisData());
+  writeFarmScore(farmScore: FarmScore): boolean {
+    const key = this.redisKeys.farmScoreKey(farmScore.obligationID);
+    return this.client.hmset(key, farmScore.toRedisData());
   }
 }

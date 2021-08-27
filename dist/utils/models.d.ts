@@ -1,4 +1,4 @@
-export declare class MinedLiquidity {
+export declare class FarmScore {
     obligationID: string;
     balance: number;
     debt: number;
@@ -6,7 +6,7 @@ export declare class MinedLiquidity {
     constructor(obligationID: string, balance: number, debt: number, score: number);
     static fromRedisData(obligationID: string, redisData: {
         [key: string]: string;
-    }): MinedLiquidity;
+    }): FarmScore;
     toRedisData(): {
         [key: string]: string;
     };
