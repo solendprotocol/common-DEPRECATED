@@ -11,10 +11,10 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.productionConfig = exports.betaConfig = exports.devnetConfig = void 0;
-var devnetConfig = require("./devnet.json");
+const devnetConfig = require("./devnet.json");
 exports.devnetConfig = devnetConfig;
-var betaConfig = require("./beta.json");
+const betaConfig = require("./beta.json");
 exports.betaConfig = betaConfig;
-var productionConfig = require("./production.json");
+const productionConfig = require("./production.json");
 exports.productionConfig = productionConfig;
 __exportStar(require("./types"), exports);
