@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FarmScore = void 0;
+exports.dateToScore = exports.Instruction = exports.TokenMovement = exports.InstructionType = exports.FarmScore = void 0;
 class FarmScore {
     constructor(obligationID, balance, debt, score) {
         this.obligationID = obligationID;
@@ -29,3 +29,44 @@ class FarmScore {
     }
 }
 exports.FarmScore = FarmScore;
+var InstructionType;
+(function (InstructionType) {
+    InstructionType["Borrow"] = "borrow";
+    InstructionType["Liquidation"] = "liquidation";
+    InstructionType["Repay"] = "repay";
+    InstructionType["Supply"] = "supply";
+    InstructionType["Withdraw"] = "withdraw";
+})(InstructionType = exports.InstructionType || (exports.InstructionType = {}));
+class TokenMovement {
+    constructor(tokenMint, quantity) {
+        this.tokenMint = tokenMint;
+        this.quantity = quantity;
+    }
+}
+exports.TokenMovement = TokenMovement;
+class Instruction {
+    constructor(obligationID, timestamp, signature, transactionIndex, type, movements) {
+        this.obligationID = obligationID;
+        this.timestamp = timestamp;
+        this.transactionSignature = signature;
+        this.transactionIndex = transactionIndex;
+        this.type = type;
+        this.movements = movements;
+    }
+    static fromRedisData(data) {
+        return JSON.parse(data);
+    }
+    toRedisData() {
+        return JSON.stringify(this);
+    }
+    score() {
+        return dateToScore(this.timestamp, this.transactionIndex);
+    }
+}
+exports.Instruction = Instruction;
+// NOTE: This assumes at most 1,000,000 instructions per transaction. It will not 
+// necessarily break when this assumption does not hold though
+function dateToScore(d, transactionIndex) {
+    return ((d.getTime() / 1000) * 1000000) + transactionIndex;
+}
+exports.dateToScore = dateToScore;

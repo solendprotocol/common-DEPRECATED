@@ -5,5 +5,8 @@ class RedisKeys {
     farmScoreKey(obligationID) {
         return `farm_score_${obligationID}`;
     }
+    instructionKey(obligationID) {
+        return `instructions_${obligationID}`;
+    }
 }
 exports.RedisKeys = RedisKeys;
