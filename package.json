@@ -29,5 +29,9 @@
   },
   "prettier": {
     "trailingComma": "none"
+  },
+  "dependencies": {
+    "@types/redis": "^2.8.31",
+    "redis": "^3.1.2"
   }
 }
