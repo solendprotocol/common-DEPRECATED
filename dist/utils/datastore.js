@@ -28,10 +28,10 @@ class SolendRedisClient {
         const key = this.redisKeys.farmScoreKey(farmScore.obligationID);
         return this.client.hmset(key, farmScore.toRedisData());
     }
-    getInstructionsSinceDate(obligationID, since) {
+    getInstructionsSinceSlot(obligationID, slot) {
         return new Promise((resolve, reject) => {
             const key = this.redisKeys.instructionKey(obligationID);
-            this.client.zrangebyscore(key, models_1.dateToScore(since, 0), "+inf", (err, redisData) => {
+            this.client.zrangebyscore(key, models_1.getInstructionScore(slot, 0), "+inf", (err, redisData) => {
                 if (err) {
                     return reject(err);
                 }

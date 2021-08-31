@@ -64,7 +64,7 @@ export class TokenMovement {
 
 export class Instruction {
   obligationID: string;
-  timestamp: Date;
+  slot: number;
   transactionSignature: string;
   transactionIndex: number;
   type: InstructionType;
@@ -72,14 +72,14 @@ export class Instruction {
 
   constructor(
     obligationID: string, 
-    timestamp: Date, 
+    slot: number,
     signature: string, 
     transactionIndex: number, 
     type: InstructionType, 
     movements: TokenMovement[]
   ) {
     this.obligationID = obligationID;
-    this.timestamp = timestamp;
+    this.slot = slot;
     this.transactionSignature = signature;
     this.transactionIndex = transactionIndex;
     this.type = type;
@@ -95,12 +95,12 @@ export class Instruction {
   }
 
   score(): number {
-    return dateToScore(this.timestamp, this.transactionIndex);
+    return getInstructionScore(this.slot, this.transactionIndex);
   }
 }
 
 // NOTE: This assumes at most 1,000,000 instructions per transaction. It will not 
 // necessarily break when this assumption does not hold though
-export function dateToScore(d: Date, transactionIndex: number): number {
-  return ((d.getTime() / 1000) * 1000000) + transactionIndex;
+export function getInstructionScore(s: number, index: number): number {
+  return (s * 1000000) + index;
 }

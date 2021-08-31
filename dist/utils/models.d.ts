@@ -25,14 +25,14 @@ export declare class TokenMovement {
 }
 export declare class Instruction {
     obligationID: string;
-    timestamp: Date;
+    slot: number;
     transactionSignature: string;
     transactionIndex: number;
     type: InstructionType;
     movements: TokenMovement[];
-    constructor(obligationID: string, timestamp: Date, signature: string, transactionIndex: number, type: InstructionType, movements: TokenMovement[]);
+    constructor(obligationID: string, slot: number, signature: string, transactionIndex: number, type: InstructionType, movements: TokenMovement[]);
     static fromRedisData(data: string): Instruction;
     toRedisData(): string;
     score(): number;
 }
-export declare function dateToScore(d: Date, transactionIndex: number): number;
+export declare function getInstructionScore(s: number, index: number): number;

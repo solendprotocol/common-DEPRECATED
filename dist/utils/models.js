@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.dateToScore = exports.Instruction = exports.TokenMovement = exports.InstructionType = exports.FarmScore = void 0;
+exports.getInstructionScore = exports.Instruction = exports.TokenMovement = exports.InstructionType = exports.FarmScore = void 0;
 class FarmScore {
     constructor(obligationID, balance, debt, score) {
         this.obligationID = obligationID;
@@ -45,9 +45,9 @@ class TokenMovement {
 }
 exports.TokenMovement = TokenMovement;
 class Instruction {
-    constructor(obligationID, timestamp, signature, transactionIndex, type, movements) {
+    constructor(obligationID, slot, signature, transactionIndex, type, movements) {
         this.obligationID = obligationID;
-        this.timestamp = timestamp;
+        this.slot = slot;
         this.transactionSignature = signature;
         this.transactionIndex = transactionIndex;
         this.type = type;
@@ -60,13 +60,13 @@ class Instruction {
         return JSON.stringify(this);
     }
     score() {
-        return dateToScore(this.timestamp, this.transactionIndex);
+        return getInstructionScore(this.slot, this.transactionIndex);
     }
 }
 exports.Instruction = Instruction;
 // NOTE: This assumes at most 1,000,000 instructions per transaction. It will not 
 // necessarily break when this assumption does not hold though
-function dateToScore(d, transactionIndex) {
-    return ((d.getTime() / 1000) * 1000000) + transactionIndex;
+function getInstructionScore(s, index) {
+    return (s * 1000000) + index;
 }
-exports.dateToScore = dateToScore;
+exports.getInstructionScore = getInstructionScore;

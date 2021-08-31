@@ -1,5 +1,5 @@
 import { ClientOpts, RedisClient } from 'redis'
-import { FarmScore, Instruction, dateToScore } from './models'
+import { FarmScore, Instruction, getInstructionScore } from './models'
 import { RedisKeys } from './keys'
 
 
@@ -33,10 +33,10 @@ export class SolendRedisClient {
     return this.client.hmset(key, farmScore.toRedisData());
   }
 
-  getInstructionsSinceDate(obligationID: string, since: Date): Promise<Instruction[]> {
+  getInstructionsSinceSlot(obligationID: string, slot: number): Promise<Instruction[]> {
     return new Promise((resolve, reject) => {
       const key = this.redisKeys.instructionKey(obligationID);
-      this.client.zrangebyscore(key, dateToScore(since, 0), "+inf", 
+      this.client.zrangebyscore(key, getInstructionScore(slot, 0), "+inf", 
         (err: any, redisData: string[]) => {
           if (err) {
             return reject(err);
