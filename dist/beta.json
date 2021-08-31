@@ -30,6 +30,12 @@
             "symbol": "SRM",
             "decimals": 6,
             "mintAddress": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"
+        },
+        {
+            "name": "USDT",
+            "symbol": "USDT",
+            "decimals": 6,
+            "mintAddress": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
         }
     ],
     "markets": [
@@ -83,6 +89,15 @@
                     "liquidityAddress": "9JRzDbX9uGbdNxs9c5SVwkbNYXwUPqA41dh4u51vDmtu",
                     "liquidityFeeReceiverAddress": "Cc8AHeCHeb2vuFqNeZ2CzWbHtLVz4V5JgARkMbKZV2Hq",
                     "userSupplyCap": 1000
+                },
+                {
+                    "asset": "USDT",
+                    "address": "DNHQW6iimCq1SuMDCFge4D1h1sdXJ19iVE9Dk6YtTvtd",
+                    "collateralMintAddress": "DEHX2WX7CkvTjGikafxVoCJbBoMZQNE6ifgurRo12MTi",
+                    "collateralSupplyAddress": "5vFqRApPpfrguweNGbtrwTZgYkdUcDZ2yeyo6A7r7f66",
+                    "liquidityAddress": "BUcMQABiqfS2QNAJ7EaKrZXZpBQKb8CaDsYJparfQWHn",
+                    "liquidityFeeReceiverAddress": "WyFcStaiZfAwGvdYeJBknXfyEhSTAvw2HBjE8iNAFiT",
+                    "userSupplyCap": 1000
                 }
             ]
         }
@@ -120,6 +135,12 @@
                 "oracleAddress": "6T1eJbKWyhZXEjmuBej9gPk3SRTagzrEQovCSwAWD57P",
                 "priceAddress": "3NBReDRTLKMQEKiLD5tGcx4kXbTf88b7f2xLS9UuGjym",
                 "switchboardFeedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH"
+            },
+            {
+                "asset": "USDT",
+                "oracleAddress": "Av6XyAMJnyi68FdsKSPYgzfXGjYrrt6jcAMwtvzLCqaM",
+                "priceAddress": "3vxLXJqLqF3JG5TCbYycbKWRBbCJQLxQmBGCkyqEEefL",
+                "switchboardFeedAddress": "5mp8kbkTYwWWCsKSte8rURjTuyinsqBpJ9xAQsewPDD"
             }
         ]
     }
