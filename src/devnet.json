@@ -23,7 +23,7 @@
       "name": "USDT",
       "symbol": "USDT",
       "decimals": 6,
-      "mintAddress": "9cZmXuhnhFReFPTEsvPBaV37kNuUn1xefSS2fWL1rxqA"
+      "mintAddress": "Bp2nLuamFZndE7gztA1iPsNVhdJeg9xfKdq7KmvjpGoP"
     },
     {
       "name": "Bitcoin",
@@ -89,6 +89,15 @@
           "liquidityAddress": "7ZgqrvQ66xjqTptxQWwrjA9hADXn5CtCXzMxPxsHJpec",
           "liquidityFeeReceiverAddress": "BKTTY5gibk5UQRMvPHwva7Y1qU5JySNQQddpTSPALunS",
           "userSupplyCap": 2000
+        },
+        {
+          "asset": "USDT",
+          "address": "ERm3jhg8J94hxr7KmhkRvnuYbKZgNFEL4hXzBMeb1rQ8",
+          "collateralMintAddress": "ACo8zUxnXNaTvjvN5S56C7KLWzCH4pXjSMU7iAg6dHj8",
+          "collateralSupplyAddress": "8vC5UkqSAJkrZ5Srwbn243sCx7s8UC1nBZ5cbtNv1ui3",
+          "liquidityAddress": "45WeSuv9fwiG1Z1t9j4Mj8D3Rto4BXkGq8huTRupdbVt",
+          "liquidityFeeReceiverAddress": "D8LAgoRdeoMdoH3ShWQMPMPuKyu4Mt5ghJUmwBFNK3Bx",
+          "userSupplyCap": 10000
         }
       ]
     }
