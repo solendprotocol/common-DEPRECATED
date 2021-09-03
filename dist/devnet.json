@@ -36,6 +36,12 @@
             "symbol": "ETH",
             "decimals": 6,
             "mintAddress": "ECReE2Qo48af56BwUkx876eNP2M54NYp8HFLugTPrVWo"
+        },
+        {
+            "name": "FTT",
+            "symbol": "FTT",
+            "decimals": 6,
+            "mintAddress": "DdpesN97RCHtLmdQtvv1MwuubkY2thuCUJAZ5W1AgZWt"
         }
     ],
     "markets": [
@@ -98,6 +104,15 @@
                     "liquidityAddress": "45WeSuv9fwiG1Z1t9j4Mj8D3Rto4BXkGq8huTRupdbVt",
                     "liquidityFeeReceiverAddress": "D8LAgoRdeoMdoH3ShWQMPMPuKyu4Mt5ghJUmwBFNK3Bx",
                     "userSupplyCap": 10000
+                },
+                {
+                    "asset": "FTT",
+                    "address": "8eUYeEiGXRMN7V9Xx7CehwSRfJB9iQfJW249zX1z7Uue",
+                    "collateralMintAddress": "6G9TFs48EkWQodGHAK1fjXC8umqZBdn8Mc8bX5iUvc2j",
+                    "collateralSupplyAddress": "86JDgSSADv6yfnYNUf4TbivQcbtaSSUtMdmHVyVy3Grv",
+                    "liquidityAddress": "J6zcVXn8MaLaHmF8MMiX3CRMWcCiVbnZsh46Ftrcy848",
+                    "liquidityFeeReceiverAddress": "FRrLhjyonZH4zESzqdEW6RfNaV1krAR7UK8frijUd5cL",
+                    "userSupplyCap": 16000
                 }
             ]
         }
