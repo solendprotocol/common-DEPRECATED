@@ -107,11 +107,11 @@
                 },
                 {
                     "asset": "FTT",
-                    "address": "2ZLFn6FkcCZTsAPEuouFWKqLtcuwtqyhi8X2GZBBPHsy",
-                    "collateralMintAddress": "9eGkB7BM73HHWei84t3j7zBetrfw7g5TCNcPJnDdgjfq",
-                    "collateralSupplyAddress": "DzEaLeRL5LXinGmbQJ433QVdQfVCnEZxyrxQYbJcCEX",
-                    "liquidityAddress": "7r2VFkNafHGpd4pkLnyYkfMSfBXXmJJupdhfsFkzhziW",
-                    "liquidityFeeReceiverAddress": "GGVjbQbnqgyqDrKHAgmxJe7R7LiQitxDQ7ZTG6wpSWSA",
+                    "address": "52pBYwJWqdZEr3A2yfaV1sRudPBK8V3DBgt4NWKYaVTM",
+                    "collateralMintAddress": "DqLcpkjNXQQEXHjJrnYDpGwtZcrFiAXsTeeXLLthoUYa",
+                    "collateralSupplyAddress": "AJMivH4AXQfUpVc82azuZZfNP6ztNCnpZrJ3RD9CdcPA",
+                    "liquidityAddress": "JZ7WnX6259VEJuycL8W3mwGUr9EJt53csEMRJC9n93y",
+                    "liquidityFeeReceiverAddress": "G6Y78AZvnVR2sm6iHN5jZFMQYfEhhGJqCZ2siuW1vG4x",
                     "userSupplyCap": 16000
                 }
             ]
