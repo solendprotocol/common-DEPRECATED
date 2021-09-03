@@ -40,7 +40,7 @@
         {
             "name": "FTT",
             "symbol": "FTT",
-            "decimals": 6,
+            "decimals": 9,
             "mintAddress": "DdpesN97RCHtLmdQtvv1MwuubkY2thuCUJAZ5W1AgZWt"
         }
     ],
