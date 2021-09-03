@@ -156,6 +156,12 @@
         "oracleAddress": "2ciUuGZiee5macAMeQ7bHGTJtwcYTgnt6jdmQnnKZrfu",
         "priceAddress": "EdVCmQ9FSPcVe5YySXDPCRmc8aDQLKJ9xvYBMZPie1Vw",
         "switchboardFeedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz"
+      },
+      {
+        "asset": "FTT",
+        "oracleAddress": "63VWd2FVbukVozZ1okHt8wVMq7enAYFXYnmp2DUQtBBJ",
+        "priceAddress": "6vivTRs5ZPeeXbjo7dfburfaYDWoXjBtdtuYgQRuGfu",
+        "switchboardFeedAddress": "6SqRewrr5f4ycWy7NvLmNgpXJbhwXrtTc1erL9aq2gP3"
       }
     ]
   }
