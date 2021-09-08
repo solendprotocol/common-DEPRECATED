@@ -42,6 +42,12 @@
             "symbol": "FTT",
             "decimals": 9,
             "mintAddress": "DdpesN97RCHtLmdQtvv1MwuubkY2thuCUJAZ5W1AgZWt"
+        },
+        {
+            "name": "RAY",
+            "symbol": "RAY",
+            "decimals": 6,
+            "mintAddress": "DxHj7TMuG5R9mXdy6UYj6G5K5GWkFPEGKjpc67mEo4Wz"
         }
     ],
     "markets": [
@@ -113,6 +119,15 @@
                     "liquidityAddress": "J6zcVXn8MaLaHmF8MMiX3CRMWcCiVbnZsh46Ftrcy848",
                     "liquidityFeeReceiverAddress": "FRrLhjyonZH4zESzqdEW6RfNaV1krAR7UK8frijUd5cL",
                     "userSupplyCap": 16000
+                },
+                {
+                    "asset": "RAY",
+                    "address": "DxHj7TMuG5R9mXdy6UYj6G5K5GWkFPEGKjpc67mEo4Wz",
+                    "collateralMintAddress": "C2JUrHN3Jj4CzL1behQ8mHmswBvYGy9UcjNvvCCmEdVT",
+                    "collateralSupplyAddress": "C2hbitGdACQ9SA4D28hcTPqo2zJSQ3eiR7gHSdhgsFfJ",
+                    "liquidityAddress": "FLAa7VtxEcwjZoqvewweBG2q1aEdMLfEn9XUC8vDdiy2",
+                    "liquidityFeeReceiverAddress": "E5nGW6GrPgF1RUfi3Q1JAJ6QRzN2SXvEXs6smHeU6qUc",
+                    "userSupplyCap": 100000
                 }
             ]
         }
@@ -162,6 +177,12 @@
                 "oracleAddress": "63VWd2FVbukVozZ1okHt8wVMq7enAYFXYnmp2DUQtBBJ",
                 "priceAddress": "6vivTRs5ZPeeXbjo7dfburfaYDWoXjBtdtuYgQRuGfu",
                 "switchboardFeedAddress": "6SqRewrr5f4ycWy7NvLmNgpXJbhwXrtTc1erL9aq2gP3"
+            },
+            {
+                "asset": "RAY",
+                "oracleAddress": "3BtxtRxitVDcsd7pPUWUnFm9KvmNDy9usS4gE6pUFhpH",
+                "priceAddress": "EhgAdTrgxi4ZoVZLQx1n93vULucPpiFi2BQtz9RJr1y6",
+                "switchboardFeedAddress": "CppyF6264uKZkGua1brTUa2fSVdMFSCszwzDs76HCuzU"
             }
         ]
     }
