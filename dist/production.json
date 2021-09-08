@@ -155,6 +155,15 @@
                     "liquidityAddress": "9ZdwVAZsqFWtzNNGZhmQJttYQxTCVPRnaXMgA2KrQpLK",
                     "liquidityFeeReceiverAddress": "J4Zttvtnt2ECLyyEaxQRywAQEN4xcbHsgMF1Fhgdyow9",
                     "userSupplyCap": 20000
+                },
+                {
+                    "asset": "RAY",
+                    "address": "9n2exoMQwMTzfw6NFoFFujxYPndWVLtKREJePssrKb36",
+                    "collateralMintAddress": "2d95ZC8L5XP6xCnaKx8D5U5eX6rKbboBBAwuBLxaFmmJ",
+                    "collateralSupplyAddress": "6uEjo58ecepRyYnKRLdAMRn8ic3oJJxnwMBH96ufMSXN",
+                    "liquidityAddress": "5JT6EK5wLEYGpAXMY2BXvhoeuQCp93eo4os2EtXwnPG1",
+                    "liquidityFeeReceiverAddress": "2E15BsCyBeAu9TwhWKQ9yWj9a4TKoPkv7B1JjNxFF7v7",
+                    "userSupplyCap": 100000
                 }
             ]
         }
@@ -200,22 +209,28 @@
                 "switchboardFeedAddress": "5mp8kbkTYwWWCsKSte8rURjTuyinsqBpJ9xAQsewPDD"
             },
             {
-                "asset": "MER",
-                "oracleAddress": "6QAiy88ry7A5RKXDrLc8RCtwkeA8JU1JVqCNVugXa7R2",
-                "priceAddress": "G4AQpTYKH1Fmg38VpFQbv6uKYQMpRhJzNPALhp7hqdrs",
-                "switchboardFeedAddress": "5pHX3fd81SpGywzsw4R12L3Xu3qd418h1PcnHpQAiMWA"
-            },
-            {
                 "asset": "FTT",
                 "oracleAddress": "E7ymZgACaSd1fYLf2V7WkAmFkpRiWfAjm49R7bceny9K",
                 "priceAddress": "8JPJJkmDScpcNmBRKGZuPuG2GYAveQgP3t5gFuMymwvF",
                 "switchboardFeedAddress": "6SqRewrr5f4ycWy7NvLmNgpXJbhwXrtTc1erL9aq2gP3"
             },
             {
+                "asset": "RAY",
+                "oracleAddress": "EjtaES3pbMCaNrVFtZ5sT36WPXAnARZxCFsoEr2hsUKJ",
+                "priceAddress": "AnLf8tVYCM816gmBjiy8n53eXKKEDydT5piYjjQDPgTB",
+                "switchboardFeedAddress": "CppyF6264uKZkGua1brTUa2fSVdMFSCszwzDs76HCuzU"
+            },
+            {
                 "asset": "SBR",
                 "oracleAddress": "3nuELNFBkbXqsXtnCzphRPCX6toKKYxVDnkyr9pTwB1K",
                 "priceAddress": "8Td9VML1nHxQK6M8VVyzsHo32D7VBk72jSpa9U861z2A",
                 "switchboardFeedAddress": "Lp3VNoRQi699VZe6u59TV8J38ELEUzxkaisoWsDuJgB"
+            },
+            {
+                "asset": "MER",
+                "oracleAddress": "6QAiy88ry7A5RKXDrLc8RCtwkeA8JU1JVqCNVugXa7R2",
+                "priceAddress": "G4AQpTYKH1Fmg38VpFQbv6uKYQMpRhJzNPALhp7hqdrs",
+                "switchboardFeedAddress": "5pHX3fd81SpGywzsw4R12L3Xu3qd418h1PcnHpQAiMWA"
             }
         ]
     }
