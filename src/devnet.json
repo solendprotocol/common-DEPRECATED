@@ -201,9 +201,9 @@
       },
       {
         "asset": "MER",
-        "oracleAddress": "6NpdXrQEpmDZ3jZKmM2rhdmkd3H6QAk23j2x8bkXcHKA",
-        "priceAddress": "5SSkXsEKQepHHAewytPVwdej4epN1nxgLVM84L4KXgy7",
-        "switchboardFeedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb"
+        "oracleAddress": "6Z3ejn8DCWQFBuAcw29d3A5jgahEpmycn7YDMX7yRNrn",
+        "priceAddress": "BzJGxCqttFdmu3J1MC7N8qAhPHgf6ZHHdoDcX91idXLK",
+        "switchboardFeedAddress": "5pHX3fd81SpGywzsw4R12L3Xu3qd418h1PcnHpQAiMWA"
       }
     ]
   }
