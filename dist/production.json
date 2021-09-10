@@ -136,7 +136,7 @@
                     "collateralSupplyAddress": "D52HyVBEMWy2WBptV5zsPuYS8W8C62gYjYKuVzaK1ruM",
                     "liquidityAddress": "4JHVBtmMPFyRpidxHtM8gVjGuLBXhaXCF4jNFFKBdGpb",
                     "liquidityFeeReceiverAddress": "AkwRd7hZ35BmnYvj9S5PgVpiBQfuzxaapshJe9PCN5hh",
-                    "userSupplyCap": 10000
+                    "userSupplyCap": 100000
                 },
                 {
                     "asset": "USDT",
