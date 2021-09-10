@@ -48,6 +48,12 @@
             "symbol": "RAY",
             "decimals": 6,
             "mintAddress": "DxHj7TMuG5R9mXdy6UYj6G5K5GWkFPEGKjpc67mEo4Wz"
+        },
+        {
+            "name": "Mercurial",
+            "symbol": "MER",
+            "decimals": 6,
+            "mintAddress": "Cj1qY2iPJNqJ1RJtMWZHya5jM53skKRVixPpvtthekPF"
         }
     ],
     "markets": [
@@ -128,6 +134,15 @@
                     "liquidityAddress": "FLAa7VtxEcwjZoqvewweBG2q1aEdMLfEn9XUC8vDdiy2",
                     "liquidityFeeReceiverAddress": "E5nGW6GrPgF1RUfi3Q1JAJ6QRzN2SXvEXs6smHeU6qUc",
                     "userSupplyCap": 100000
+                },
+                {
+                    "asset": "MER",
+                    "address": "HbXi7Gpe5GXzE7V1SjEEy3sDurmFi7RbTvCZ3Rd7Nv6b",
+                    "collateralMintAddress": "66F7DZxwKB4KpPy3xFMzRRzh2pLHhJ7qegBM3ejFAwg4",
+                    "collateralSupplyAddress": "3dC3WXMfjrr1VKtuUGiaY5rCgH7MgEMNcZz3avanVHg3",
+                    "liquidityAddress": "Bf9C8miLK98QDprTYW21d7ekwiaPt9BUBv1GAwKAcU6V",
+                    "liquidityFeeReceiverAddress": "9HayYeYcnpKw29Gb64EbDypsTLrTeU5ovNnBEVpLsKwd",
+                    "userSupplyCap": 150000
                 }
             ]
         }
@@ -183,6 +198,12 @@
                 "oracleAddress": "3BtxtRxitVDcsd7pPUWUnFm9KvmNDy9usS4gE6pUFhpH",
                 "priceAddress": "EhgAdTrgxi4ZoVZLQx1n93vULucPpiFi2BQtz9RJr1y6",
                 "switchboardFeedAddress": "CppyF6264uKZkGua1brTUa2fSVdMFSCszwzDs76HCuzU"
+            },
+            {
+                "asset": "MER",
+                "oracleAddress": "6NpdXrQEpmDZ3jZKmM2rhdmkd3H6QAk23j2x8bkXcHKA",
+                "priceAddress": "5SSkXsEKQepHHAewytPVwdej4epN1nxgLVM84L4KXgy7",
+                "switchboardFeedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb"
             }
         ]
     }
