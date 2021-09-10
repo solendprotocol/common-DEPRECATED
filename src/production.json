@@ -172,7 +172,7 @@
           "collateralSupplyAddress": "FeWc3QLKQBYS3RbrzEzj4ADsdNtQStomNepajeubY9cW",
           "liquidityAddress": "CNREdzCSa2X5HQ6xjDZ1jd2XN3nmwTHfQkYj9pWAZuXs",
           "liquidityFeeReceiverAddress": "8hWXJ8jY6WrnbRM47hJZbstfBz3eX9HtsPTHvv2RJH2D",
-          "userSupplyCap": 100000
+          "userSupplyCap": 1500000
         }
       ]
     }
