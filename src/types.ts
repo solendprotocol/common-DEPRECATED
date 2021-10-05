@@ -38,5 +38,5 @@ export interface Reserve {
   collateralSupplyAddress: string;
   liquidityAddress: string;
   liquidityFeeReceiverAddress: string;
-  userSupplyCap: number;
+  userSupplyCap?: number;
 }
