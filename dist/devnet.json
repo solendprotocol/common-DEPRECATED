@@ -56,7 +56,7 @@
             "mintAddress": "Cj1qY2iPJNqJ1RJtMWZHya5jM53skKRVixPpvtthekPF"
         },
         {
-            "name": "SBR",
+            "name": "Saber",
             "symbol": "SBR",
             "decimals": 6,
             "mintAddress": "BS4TfsqZtH9FEGL3LmyFn56PXj8AzLKEga3zvpCTGRat"
@@ -152,11 +152,11 @@
                 },
                 {
                     "asset": "SBR",
-                    "address": "CRsHewGBRceCKVQNV9vF15HQVDTvqgqExtCfDQtRWGRi",
-                    "collateralMintAddress": "6SspvG4AxDzThprZKpmdh95Wdj8baWLJhyrrRnP3wCxP",
-                    "collateralSupplyAddress": "iCs4vZd1Cz3ygybbyRf6VmQVhunNFeVwNt55bujmh69",
-                    "liquidityAddress": "DY93wrycxhZePZWgqq2oKnUQ8vqXTSPqJefreAjNkyr9",
-                    "liquidityFeeReceiverAddress": "FnaTEj5uBSdDntyb4ngevtgYGqwn5Fkh1FCdczqq8HVg",
+                    "address": "5CXDzn4AygQwu59fGxo34T965BmYMHuGvAuoRMeRBKg4",
+                    "collateralMintAddress": "4GAGuewTRMfBJukgu3HSzpT48iqP4bYVCq3tygnjqmxL",
+                    "collateralSupplyAddress": "Db5uVF9TyReRFTg6xWmq95Let4QECFLiyWfB7jaT2UYz",
+                    "liquidityAddress": "3WXNo8rCMJCmg5cMrdXRxGrK3NaCvTBrrSaBhKZxotN3",
+                    "liquidityFeeReceiverAddress": "68NTVqTKtVkCCKNLn7qYAuwdyGnm6DQTjBrzc2RAh5vH",
                     "userSupplyCap": 2000000
                 }
             ]
