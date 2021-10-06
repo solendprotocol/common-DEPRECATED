@@ -143,6 +143,15 @@
           "liquidityAddress": "Bf9C8miLK98QDprTYW21d7ekwiaPt9BUBv1GAwKAcU6V",
           "liquidityFeeReceiverAddress": "9HayYeYcnpKw29Gb64EbDypsTLrTeU5ovNnBEVpLsKwd",
           "userSupplyCap": 150000
+        },
+        {
+          "asset": "SBR",
+          "address": "CRsHewGBRceCKVQNV9vF15HQVDTvqgqExtCfDQtRWGRi",
+          "collateralMintAddress": "6SspvG4AxDzThprZKpmdh95Wdj8baWLJhyrrRnP3wCxP",
+          "collateralSupplyAddress": "iCs4vZd1Cz3ygybbyRf6VmQVhunNFeVwNt55bujmh69",
+          "liquidityAddress": "DY93wrycxhZePZWgqq2oKnUQ8vqXTSPqJefreAjNkyr9",
+          "liquidityFeeReceiverAddress": "FnaTEj5uBSdDntyb4ngevtgYGqwn5Fkh1FCdczqq8HVg",
+          "userSupplyCap": 2000000
         }
       ]
     }
