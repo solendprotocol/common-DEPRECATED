@@ -54,6 +54,12 @@
       "symbol": "MER",
       "decimals": 6,
       "mintAddress": "Cj1qY2iPJNqJ1RJtMWZHya5jM53skKRVixPpvtthekPF"
+    },
+    {
+      "name": "SBR",
+      "symbol": "SBR",
+      "decimals": 6,
+      "mintAddress": "BS4TfsqZtH9FEGL3LmyFn56PXj8AzLKEga3zvpCTGRat"
     }
   ],
   "markets": [
@@ -213,6 +219,12 @@
         "oracleAddress": "BzJGxCqttFdmu3J1MC7N8qAhPHgf6ZHHdoDcX91idXLK",
         "priceAddress": "6Z3ejn8DCWQFBuAcw29d3A5jgahEpmycn7YDMX7yRNrn",
         "switchboardFeedAddress": "5pHX3fd81SpGywzsw4R12L3Xu3qd418h1PcnHpQAiMWA"
+      },
+      {
+        "asset": "SBR",
+        "oracleAddress": "APY6HpicQTabn46sZPt2pAqunFpkws9ySdujj5BHcZAK",
+        "priceAddress": "4WSN3XDSTfBX9A1YXGg8HJ7n2GtWMDNbtz1ab6aGGXfG",
+        "switchboardFeedAddress": "Lp3VNoRQi699VZe6u59TV8J38ELEUzxkaisoWsDuJgB"
       }
     ]
   }
