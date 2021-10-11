@@ -168,6 +168,15 @@
                     "liquidityAddress": "86hiF77ktrdVFU9xFqxsYChRirgs9KCvQDD9g4jT64bJ",
                     "liquidityFeeReceiverAddress": "7mjo1oAYVcAQmysfS64LTYi2ZkKJFveymmhYVasEc1nh",
                     "userSupplyCap": 5000000
+                },
+                {
+                    "asset": "MER",
+                    "address": "5Sb6wDpweg6mtYksPJ2pfGbSyikrhR8Ut8GszcULQ83A",
+                    "collateralMintAddress": "BsWLxf6hRJnyytKR52kKBiz7qU7BB3SH77mrBxNnYU1G",
+                    "collateralSupplyAddress": "FeWc3QLKQBYS3RbrzEzj4ADsdNtQStomNepajeubY9cW",
+                    "liquidityAddress": "CNREdzCSa2X5HQ6xjDZ1jd2XN3nmwTHfQkYj9pWAZuXs",
+                    "liquidityFeeReceiverAddress": "8hWXJ8jY6WrnbRM47hJZbstfBz3eX9HtsPTHvv2RJH2D",
+                    "userSupplyCap": 2000000
                 }
             ]
         }
