@@ -60,6 +60,12 @@
       "symbol": "SBR",
       "decimals": 6,
       "mintAddress": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1"
+    },
+    {
+      "name": "Marinage staked SOL",
+      "symbol": "mSOL",
+      "decimals": 9,
+      "mintAddress": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
     }
   ],
   "markets": [
@@ -158,6 +164,15 @@
           "liquidityAddress": "4EU6NnzSS7pzDgowGyNzabgeKgUpoDu8K1CDaiePqLaD",
           "liquidityFeeReceiverAddress": "5yyuJiHb56tnyuz5XhgWDeYKZFeBLbZYuCKTCk6KnKdz",
           "userSupplyCap": 2000000
+        },
+        {
+          "asset": "mSOL",
+          "address": "E7SMTfMiy7gLcpEv7JD9XGDwipaNC4agzGYRp48ZFRpZ",
+          "collateralMintAddress": "C56frs7yfd6a6hGJhXuT7kYaU783LVk8ZGJNN728C47t",
+          "collateralSupplyAddress": "7T3L8G3s1tBo2FiU9RxaTZpRnHU3kWHspVKFTisetFG7",
+          "liquidityAddress": "ADnXnobGqo8pGUTKZZXzE3WyCABAJ7CEAqB9JHEjpsiT",
+          "liquidityFeeReceiverAddress": "3DaYxR17GUgaw3Z4k1Lu7Xz7CGnFbJvG11mCyCbDKaUj",
+          "userSupplyCap": 100000
         }
       ]
     }
@@ -225,6 +240,12 @@
         "oracleAddress": "3nuELNFBkbXqsXtnCzphRPCX6toKKYxVDnkyr9pTwB1K",
         "priceAddress": "8Td9VML1nHxQK6M8VVyzsHo32D7VBk72jSpa9U861z2A",
         "switchboardFeedAddress": "Lp3VNoRQi699VZe6u59TV8J38ELEUzxkaisoWsDuJgB"
+      },
+      {
+        "asset": "mSOL",
+        "oracleAddress": "BS2iAqT67j8hA9Jji4B8UpL3Nfw9kwPfU5s4qeaf1e7r",
+        "priceAddress": "E4v1BBgoso9s64TQvmyownAVJbhbEPGyzA3qn4n46qj9",
+        "switchboardFeedAddress": "CEPVH2t11KS4CaL3w4YxT9tRiijoGA4VEbnQ97cEpDmQ"
       }
     ]
   }
