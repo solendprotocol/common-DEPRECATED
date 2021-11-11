@@ -140,7 +140,7 @@
                     "collateralSupplyAddress": "D52HyVBEMWy2WBptV5zsPuYS8W8C62gYjYKuVzaK1ruM",
                     "liquidityAddress": "4JHVBtmMPFyRpidxHtM8gVjGuLBXhaXCF4jNFFKBdGpb",
                     "liquidityFeeReceiverAddress": "AkwRd7hZ35BmnYvj9S5PgVpiBQfuzxaapshJe9PCN5hh",
-                    "userSupplyCap": 200000
+                    "userSupplyCap": 2000000
                 },
                 {
                     "asset": "FTT",
