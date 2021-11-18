@@ -134,6 +134,15 @@
           "liquidityFeeReceiverAddress": "9CjhBpwiQbP2zYnj7PqHTxPPp2BCR4Y4rP4ZPWkqrCQk"
         },
         {
+          "asset": "mSOL",
+          "address": "CCpirWrgNuBVLdkP2haxLTbD6XqEgaYuVXixbbpxUB6",
+          "collateralMintAddress": "3JFC4cB56Er45nWVe29Bhnn5GnwQzSmHVf6eUq9ac91h",
+          "collateralSupplyAddress": "FG7yuhS6udX8v2LQYxqwpcsdC2J1pUREoGrRYsQjr1uh",
+          "liquidityAddress": "3R5SVe3qABRUYozgeMNVkSotVoa4HhTFFgWgx2G2QMov",
+          "liquidityFeeReceiverAddress": "83r2poRUiqaghyymPtfhhRtHdReFAKbgGGCQajkczW5w",
+          "userSupplyCap": 100000
+        },
+        {
           "asset": "SRM",
           "address": "5suXmvdbKQ98VonxGCXqViuWRu8k4zgZRxndYKsH2fJg",
           "collateralMintAddress": "4CxGuD2NMr6zM8f18gr6kRhgd748pnmkAhkY1YJtkup1",
@@ -177,15 +186,6 @@
           "liquidityAddress": "CNREdzCSa2X5HQ6xjDZ1jd2XN3nmwTHfQkYj9pWAZuXs",
           "liquidityFeeReceiverAddress": "8hWXJ8jY6WrnbRM47hJZbstfBz3eX9HtsPTHvv2RJH2D",
           "userSupplyCap": 4000000
-        },
-        {
-          "asset": "mSOL",
-          "address": "CCpirWrgNuBVLdkP2haxLTbD6XqEgaYuVXixbbpxUB6",
-          "collateralMintAddress": "3JFC4cB56Er45nWVe29Bhnn5GnwQzSmHVf6eUq9ac91h",
-          "collateralSupplyAddress": "FG7yuhS6udX8v2LQYxqwpcsdC2J1pUREoGrRYsQjr1uh",
-          "liquidityAddress": "3R5SVe3qABRUYozgeMNVkSotVoa4HhTFFgWgx2G2QMov",
-          "liquidityFeeReceiverAddress": "83r2poRUiqaghyymPtfhhRtHdReFAKbgGGCQajkczW5w",
-          "userSupplyCap": 100000
         }
       ]
     }
