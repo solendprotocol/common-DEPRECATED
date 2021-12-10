@@ -66,6 +66,12 @@
             "symbol": "mSOL",
             "decimals": 9,
             "mintAddress": "B9FyrxFK8zFugDbrcyduwbVw2PTUN5ckUHZCTf3ogjn"
+        },
+        {
+            "name": "Wrapped Ether (Wormhole)",
+            "symbol": "weWETH",
+            "decimals": 8,
+            "mintAddress": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs"
         }
     ],
     "markets": [
