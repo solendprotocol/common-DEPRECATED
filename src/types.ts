@@ -21,6 +21,7 @@ export interface OracleAsset {
   oracleAddress: string;
   priceAddress: string;
   switchboardFeedAddress: string;
+  tokenMintAddress: string;
 }
 
 export interface Market {
