@@ -242,7 +242,8 @@
           "collateralMintAddress": "AFq1sSdevxfqWGcmcz7XpPbfjHevcJY7baZf9RkyrzoR",
           "collateralSupplyAddress": "7NJCWoLDngquvYcCPzUBLYfpS9F3eox4ibgivEGxXweU",
           "liquidityAddress": "5Ynq25D3t124WkQZaaWHBXkWkMGJchVg2sCRgfu1PYbs",
-          "liquidityFeeReceiverAddress": "6SytVt3JLkB5VdLPxTBd5zZFGGVDXsMhf6AdcajdZTBV"
+          "liquidityFeeReceiverAddress": "6SytVt3JLkB5VdLPxTBd5zZFGGVDXsMhf6AdcajdZTBV",
+          "userSupplyCap": 100000
         }
       ]
     }
