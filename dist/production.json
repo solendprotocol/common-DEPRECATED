@@ -234,7 +234,8 @@
                     "collateralMintAddress": "QQ6WK86aUCBvNPkGeYBKikk15sUg6aMUEi5PTL6eB4i",
                     "collateralSupplyAddress": "9MBrzWjgw1sbca6X2M6YoUCQgN6udVeKp9oLFwuzPY2p",
                     "liquidityAddress": "7ma18yBbX37RbFHQXiq1XhP6c561nDnYSmF84mwiY7Wo",
-                    "liquidityFeeReceiverAddress": "6N5JTX3hXRwudgbVxbAbMvnrW1GB4QdpFGQgYonaWj4C"
+                    "liquidityFeeReceiverAddress": "6N5JTX3hXRwudgbVxbAbMvnrW1GB4QdpFGQgYonaWj4C",
+                    "userSupplyCap": 100000
                 },
                 {
                     "asset": "scnSOL",
