@@ -108,6 +108,30 @@
       "symbol": "scnSOL",
       "decimals": 9,
       "mintAddress": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm"
+    },
+    {
+      "name": "UST (Wormhole)",
+      "symbol": "UST",
+      "decimals": 6,
+      "mintAddress": "9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i"
+    },
+    {
+      "name": "Saber USDT-USDC LP",
+      "symbol": "USDT-USDC",
+      "decimals": 6,
+      "mintAddress": "2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf"
+    },
+    {
+      "name": "Saber mSOL-SOL LP",
+      "symbol": "mSOL-SOL",
+      "decimals": 9,
+      "mintAddress": "SoLEao8wTzSfqhuou8rcYsVoLjthVmiXuEjzdNPMnCz"
+    },
+    {
+      "name": "Orca",
+      "symbol": "ORCA",
+      "decimals": 6,
+      "mintAddress": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"
     }
   ],
   "markets": [
@@ -245,6 +269,42 @@
           "liquidityAddress": "5Ynq25D3t124WkQZaaWHBXkWkMGJchVg2sCRgfu1PYbs",
           "liquidityFeeReceiverAddress": "6SytVt3JLkB5VdLPxTBd5zZFGGVDXsMhf6AdcajdZTBV",
           "userSupplyCap": 100000
+        },
+        {
+          "asset": "UST",
+          "address": "Ab48bKsiEzdm481mGaNVmv9m9DmXsWWxcYHM588M59Yd",
+          "collateralMintAddress": "nZtL8HKX3aQtk3VpdvtdwPpXF2uMia522Pnan2meqdf",
+          "collateralSupplyAddress": "4HXDioboWL85gQocYNkWM62AB5ctrf8jVykSVco67Lzx",
+          "liquidityAddress": "5LyHdTXh1MSbRzE7xfTtfpV8W5eaySJnSiTs6FdHhrSo",
+          "liquidityFeeReceiverAddress": "4GctGML68E1kDcvskGTXRPY9ngxmxVnJXjpsJ68YBXPR",
+          "userSupplyCap": 500000
+        },
+        {
+          "asset": "USDT-USDC",
+          "address": "9mZsd1b9cN7JyqJvkbqhVuTfg8PAuKjuhPxpcsVNjYoC",
+          "collateralMintAddress": "6XrbsKScacEwpEW5DVNko9t5vW3cim9wktAeT9mmiYHS",
+          "collateralSupplyAddress": "fh6Bv7k29VBYTnXBRNJX9Gqk9pZVRxwj1vjcg6M2R3M",
+          "liquidityAddress": "AZkoTbjXJubLng1MSa5beFks93KpArVu3f3efGvNB6CH",
+          "liquidityFeeReceiverAddress": "2Us5qmLmBx6rCXMg7mJGQFwvG1kq1opTvVwPKt5G8oHi",
+          "userSupplyCap": 500000
+        },
+        {
+          "asset": "mSOL-SOL",
+          "address": "6ve8XyELbecPdbzSTsyhYKiWr7wg3JpjfxE1cqoN9qhN",
+          "collateralMintAddress": "4icXEpFVMrcqob6fnd3jZ6KjKrc6cqre6do1f8kKAC1u",
+          "collateralSupplyAddress": "3nfgTBPf1N1NPNTTYk2HpJABaL59db3XKnjgJ8JGwtHJ",
+          "liquidityAddress": "ETnpmAETSfzmfevgUxzaHGTdDrTofHGZgCdccCHkA6nM",
+          "liquidityFeeReceiverAddress": "2TWjqvWCjMFBWJSx42AZYbDyihBrQqCo6URDpLhWA8L6",
+          "userSupplyCap": 3000
+        },
+        {
+          "asset": "ORCA",
+          "address": "FKZTsydxPShJ8baThobis6qFxTjALMkVC49EA88wqvm7",
+          "collateralMintAddress": "E9LAZYxBVhJr9Cdfi9Tn4GSiJHDWSZDsew5tfgJja6Cu",
+          "collateralSupplyAddress": "FELidXszawDEujYLV7A5u7XXFCsPCNvTHm1heJbnh36G",
+          "liquidityAddress": "5grnVTzYxhhhbiSdbkznMff721ZPMP3SzYhy2Yzd37jt",
+          "liquidityFeeReceiverAddress": "GHoC6JumDEw5CB35wqMwZK2G6NmrhjynKAdNnVNUP9ie",
+          "userSupplyCap": 300000
         }
       ]
     }
@@ -342,6 +402,30 @@
         "oracleAddress": "nu11111111111111111111111111111111111111111",
         "priceAddress": "nu11111111111111111111111111111111111111111",
         "switchboardFeedAddress": "DpzEKDSszosuzRUdRYzEcEbt6iZ4xhVEANQSRAYDYw8h"
+      },
+      {
+        "asset": "UST",
+        "oracleAddress": "5ZJ49jAYEGLfxDkcErM4AtP3tJbjSbJJtxmsp7Lybf29",
+        "priceAddress": "H8DvrfSaRfUyP1Ytse1exGf7VSinLWtmKNNaBhA4as9P",
+        "switchboardFeedAddress": "8o8gN6VnW45R8pPfQzUJUwJi2adFmsWwfGcFNmicWt61"
+      },
+      {
+        "asset": "USDT-USDC",
+        "oracleAddress": "nu11111111111111111111111111111111111111111",
+        "priceAddress": "nu11111111111111111111111111111111111111111",
+        "switchboardFeedAddress": "4bkMJsmwrKH3VFw9QW3LH8rXfNEUvFLbp3dAu8wMyT5V"
+      },
+      {
+        "asset": "mSOL-SOL",
+        "oracleAddress": "nu11111111111111111111111111111111111111111",
+        "priceAddress": "nu11111111111111111111111111111111111111111",
+        "switchboardFeedAddress": "2CpB8n1hntXDCQ3E7wEARZH8S8mrtdpZhG2FdYZs8NoU"
+      },
+      {
+        "asset": "ORCA",
+        "oracleAddress": "nu11111111111111111111111111111111111111111",
+        "priceAddress": "nu11111111111111111111111111111111111111111",
+        "switchboardFeedAddress": "EHwSRkm2ErRjWxCxrTxrmC7sT2kGb5jJcsiindUHAX7W"
       }
     ]
   }
