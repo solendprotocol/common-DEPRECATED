@@ -56,12 +56,6 @@
       "mintAddress": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1"
     },
     {
-      "name": "UST",
-      "symbol": "UST",
-      "decimals": 9,
-      "mintAddress": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm"
-    },
-    {
       "name": "Raydium",
       "symbol": "RAY",
       "decimals": 6,
