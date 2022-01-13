@@ -205,7 +205,33 @@
                     "userSupplyCap": 100000
                 }
             ]
-        }
+          },
+          {
+            "name": "turbo-sol",
+            "address": "Az4MpWtMcpENQZwbEbTnrgyd2qk3wsMwQXimadUiHSQp",
+            "authorityAddress": "Be3wJZnTdNerb5Ccz5kAZWcaDvwZe4XHkNZiTMtm27pQ",
+            "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
+            "reserves": [
+              {
+                "asset": "SOL",
+                "address": "AsaCdu7GoCN1rSwx3mA48pffWBLoN2cbbVAe9dh3GV4X",
+                "collateralMintAddress": "6WWWuWHyhXRdnR7QUhKGxnNMfiEZN4BwBy1sN2w8bqpK",
+                "collateralSupplyAddress": "Bz6whgdmXPkjwz6Res2cDFuUex9QyovUsTWe8qkSyxdm",
+                "liquidityAddress": "7ffWDXqLHyVjULZzDqZ87gYqJWMURfUhGzgmX3DxaPWy",
+                "liquidityFeeReceiverAddress": "Ct9msoimSJNgjgqgeg45AroKpBXkzs1iMNdcN6KDw9jN",
+                "userSupplyCap": 250
+              },
+              {
+                "asset": "USDC",
+                "address": "CVVrLDwn1DwYuk5UGmmVm1X1q7xLoys35dUKrCEYZtaT",
+                "collateralMintAddress": "FvbghfJgb8cbKh5rcp2uq5DuzcoZ1yDEyyHnXAHjTgyk",
+                "collateralSupplyAddress": "B9cEFcfHwzoNq983i1utFkT3EXgPWMFWo5dgHgv7QBRZ",
+                "liquidityAddress": "2pxCpRoe4Bss3qhEfn3geGS7BnFqf6B6VAFdsyjVkCjd",
+                "liquidityFeeReceiverAddress": "9rkkBsAo8BwjP9pajXDCrccNMbe8rXpVcTXQp1tGH1Hr",
+                "userSupplyCap": 10000
+              }
+            ]
+          }
     ],
     "oracles": {
         "pythProgramID": "FsJ3A3u2vn5cTVofAjvy6y5kwABJAqYWpe4975bi2epH",
