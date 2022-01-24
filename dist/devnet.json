@@ -101,6 +101,7 @@
     "markets": [
         {
             "name": "main",
+            "isPrimary": true,
             "address": "GvjoVKNjBvQcFaSKUW1gTE7DxhSpjHbE69umVR5nPuQp",
             "authorityAddress": "EhJ4fwaXUp7aiwvZThSUaGWCaBQAJe3AEaJJJVCn3UCK",
             "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
