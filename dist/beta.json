@@ -96,6 +96,12 @@
             "symbol": "UST",
             "decimals": 9,
             "mintAddress": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm"
+        },
+        {
+            "name": "Wrapped Staked Sol Invictus",
+            "symbol": "sIN",
+            "decimals": 9,
+            "mintAddress": "sinjBMHhAuvywW3o87uXHswuRXb3c7TfqgAdocedtDj"
         }
     ],
     "markets": [
@@ -233,6 +239,38 @@
                     "userSupplyCap": 10000
                 }
             ]
+        },
+        {
+            "name": "Invictus",
+            "isPrimary": false,
+            "address": "GszLyfV1UTyUwv3GjRzhPiu4YyxiSuB9sp3j2kL1xeVx",
+            "authorityAddress": "3hTkp1VkCQE9Wu8gmaiqgkXhMNenCqtbfWHvuZzXmXvc",
+            "reserves": [
+                {
+                    "asset": "sIN",
+                    "address": "8f11WJXD5RLLx5QTwgwjzr8J2dKkgwAHPinf1N6Va6Yv",
+                    "collateralMintAddress": "3Pb6GGCp3wLHqwZQJB4jM7URqX5j7U8yBVpaY3cvknGt",
+                    "collateralSupplyAddress": "CoTsrJEACoiPv6ga9ijAdYuGEgfmawxVFK6cTdGj6VUf",
+                    "liquidityAddress": "2siWVHvmxgEHrgCdkn9mKserSfX1woMEZmKufxZKuQNa",
+                    "liquidityFeeReceiverAddress": "BvoHYrEDgqNUt7jCPJWpqiaNJdeWTrnJVSE44dRytahc"
+                },
+                {
+                    "asset": "USDC",
+                    "address": "21wK9EDZEEs7UNzhPq5ACCBDCKfrM62b2rAWXvHtqN66",
+                    "collateralMintAddress": "8NfST9rmBLPJYfwxe6iBrnh8r7Rs5owgzbwhTw8ezHq1",
+                    "collateralSupplyAddress": "GgSWe5Zvn6qY3Pk6GRquCoMwVRo9wToJQ4w7tfi1vGoh",
+                    "liquidityAddress": "AHFEMT74ejeXsoNhHF3eyea59JxJXy5qxTi6a3AoeNtv",
+                    "liquidityFeeReceiverAddress": "EDNoAxxrouTwkewPYVg8m7E1cfTSpwQjx3hK5GF78p54"
+                },
+                {
+                    "asset": "UST",
+                    "address": "Edf381QahFiYoNtBdB3pRouDypUkLA2G6WZRBbSngpCV",
+                    "collateralMintAddress": "2iJpkZB6FcR2wKMFH1zftFFd1PrGn5B92QcrPneufB1r",
+                    "collateralSupplyAddress": "zRWdPk8ABkoGGjJHjg1u5XZEP8jRkFh3y4fD6PYnKzK",
+                    "liquidityAddress": "H1Fr6nDfopCVbRsjsajVSWyLBkinnoxMBgir2BiQJSAa",
+                    "liquidityFeeReceiverAddress": "CpZA4R4cCohyJGzgTbpR4UpjmZRJdqiv4ZL33uafwCer"
+                }
+            ]
         }
     ],
     "oracles": {
@@ -298,6 +336,11 @@
                 "oracleAddress": "3nuELNFBkbXqsXtnCzphRPCX6toKKYxVDnkyr9pTwB1K",
                 "priceAddress": "8Td9VML1nHxQK6M8VVyzsHo32D7VBk72jSpa9U861z2A",
                 "switchboardFeedAddress": "Lp3VNoRQi699VZe6u59TV8J38ELEUzxkaisoWsDuJgB"
+            },
+            {
+                "asset": "sIN",
+                "priceAddress": "nu11111111111111111111111111111111111111111",
+                "switchboardFeedAddress": "3YUHvezfoeY8JxLB624bnk3mamLDnJZ6VTUs9ezwJTDo"
             },
             {
                 "asset": "mSOL",
