@@ -102,6 +102,12 @@
             "symbol": "sIN",
             "decimals": 9,
             "mintAddress": "sinjBMHhAuvywW3o87uXHswuRXb3c7TfqgAdocedtDj"
+        },
+        {
+            "name": "UST (Wormhole)",
+            "symbol": "UST",
+            "decimals": 6,
+            "mintAddress": "9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i"
         }
     ],
     "markets": [
