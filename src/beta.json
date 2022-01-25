@@ -339,6 +339,7 @@
       },
       {
         "asset": "sIN",
+        "oracleAddress": "nu11111111111111111111111111111111111111111",
         "priceAddress": "nu11111111111111111111111111111111111111111",
         "switchboardFeedAddress": "3YUHvezfoeY8JxLB624bnk3mamLDnJZ6VTUs9ezwJTDo"
       },
