@@ -354,7 +354,13 @@
                 "oracleAddress": "BS2iAqT67j8hA9Jji4B8UpL3Nfw9kwPfU5s4qeaf1e7r",
                 "priceAddress": "E4v1BBgoso9s64TQvmyownAVJbhbEPGyzA3qn4n46qj9",
                 "switchboardFeedAddress": "CEPVH2t11KS4CaL3w4YxT9tRiijoGA4VEbnQ97cEpDmQ"
-            }
+            },
+            {
+                "asset": "UST",
+                "oracleAddress": "5ZJ49jAYEGLfxDkcErM4AtP3tJbjSbJJtxmsp7Lybf29",
+                "priceAddress": "H8DvrfSaRfUyP1Ytse1exGf7VSinLWtmKNNaBhA4as9P",
+                "switchboardFeedAddress": "8o8gN6VnW45R8pPfQzUJUwJi2adFmsWwfGcFNmicWt61"
+            },
         ]
     }
 }
