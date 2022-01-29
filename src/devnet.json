@@ -96,6 +96,12 @@
       "symbol": "UST",
       "decimals": 9,
       "mintAddress": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm"
+    },
+    {
+      "name": "FTX Token (Wormhole)",
+      "symbol": "FTT",
+      "decimals": 8,
+      "mintAddress": "EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv"
     }
   ],
   "markets": [

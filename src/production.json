@@ -126,6 +126,12 @@
       "symbol": "ORCA",
       "decimals": 6,
       "mintAddress": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"
+    },
+    {
+      "name": "FTX Token (Wormhole)",
+      "symbol": "FTT",
+      "decimals": 8,
+      "mintAddress": "EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv"
     }
   ],
   "markets": [
@@ -300,6 +306,15 @@
           "liquidityAddress": "5grnVTzYxhhhbiSdbkznMff721ZPMP3SzYhy2Yzd37jt",
           "liquidityFeeReceiverAddress": "GHoC6JumDEw5CB35wqMwZK2G6NmrhjynKAdNnVNUP9ie",
           "userSupplyCap": 300000
+        },
+        {
+          "asset": "FTT",
+          "address": "8bDyV3N7ctLKoaSVqUoEwUzw6msS2F65yyNPgAVUisKm",
+          "collateralMintAddress": "DiMx1n2dJmxqFtENRPhYWsqi8Mhg2p39MpTzsm6phzMP",
+          "collateralSupplyAddress": "EPNB8NiL3vFDYQhSZY5LQAoW6AJYLdwFXezXeyqiPvEM",
+          "liquidityAddress": "ByYuFLvwVW9NSKnGbnKSMToy3Ea9StJ4t7HjAmcTjk7w",
+          "liquidityFeeReceiverAddress": "2C2aefnxUSAMQrfey1hC6yHLh18BpjkwL1zAJCS9YqDG",
+          "userSupplyCap": 500000
         }
       ]
     }
@@ -421,6 +436,12 @@
         "oracleAddress": "nu11111111111111111111111111111111111111111",
         "priceAddress": "nu11111111111111111111111111111111111111111",
         "switchboardFeedAddress": "EHwSRkm2ErRjWxCxrTxrmC7sT2kGb5jJcsiindUHAX7W"
+      },
+      {
+          "asset": "FTT",
+          "oracleAddress": "E7ymZgACaSd1fYLf2V7WkAmFkpRiWfAjm49R7bceny9K",
+          "priceAddress": "8JPJJkmDScpcNmBRKGZuPuG2GYAveQgP3t5gFuMymwvF",
+          "switchboardFeedAddress": "6SqRewrr5f4ycWy7NvLmNgpXJbhwXrtTc1erL9aq2gP3"
       }
     ]
   }
