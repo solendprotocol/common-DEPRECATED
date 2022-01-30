@@ -118,7 +118,7 @@
     ],
     "markets": [
         {
-            "name": "Solend",
+            "name": "Main",
             "isPrimary": true,
             "address": "HB1cecsgnFPBfKxEDfarVtKXEARWuViJKCqztWiFB3Uk",
             "authorityAddress": "G9Ed4rdvrBypMPAz2QH6Pi9VZADkLuvo9sPvbTvHmVTU",
@@ -226,7 +226,7 @@
             ]
         },
         {
-            "name": "Turbo SOL",
+            "name": "TURBO SOL",
             "isPrimary": false,
             "address": "Az4MpWtMcpENQZwbEbTnrgyd2qk3wsMwQXimadUiHSQp",
             "authorityAddress": "Be3wJZnTdNerb5Ccz5kAZWcaDvwZe4XHkNZiTMtm27pQ",
