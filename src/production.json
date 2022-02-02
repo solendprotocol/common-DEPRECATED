@@ -448,13 +448,13 @@
         "asset": "USDT-USDC",
         "oracleAddress": "nu11111111111111111111111111111111111111111",
         "priceAddress": "nu11111111111111111111111111111111111111111",
-        "switchboardFeedAddress": "4bkMJsmwrKH3VFw9QW3LH8rXfNEUvFLbp3dAu8wMyT5V"
+        "switchboardFeedAddress": "GnTHvhe4opQXHL4JGgDpfQKk2JY1ugmVLWvJocTH639q"
       },
       {
         "asset": "mSOL-SOL",
         "oracleAddress": "nu11111111111111111111111111111111111111111",
         "priceAddress": "nu11111111111111111111111111111111111111111",
-        "switchboardFeedAddress": "CguY3poPsapFdmunGgzoNxsm7rkZT3NckAcgfyM4T5sR"
+        "switchboardFeedAddress": "6ZuSuX14mxyZQ8JgjAC9PoDcbAU9sr1umUoyYVseVaNF"
       },
       {
         "asset": "ORCA",
