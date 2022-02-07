@@ -136,7 +136,7 @@
   ],
   "markets": [
     {
-      "name": "Main",
+      "name": "main",
       "isPrimary": true,
       "address": "4UpD2fh7xH3VP9QQaXtsS1YY3bxzWhtfpks7FatyKvdY",
       "authorityAddress": "DdZR6zRFiUt4S5mg7AV1uKB2z1f1WzcNYCaTEEWPAuby",
@@ -342,6 +342,31 @@
           "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
         }
       ]
+    },
+    {
+      "name": "Invictus",
+      "isPrimary": false,
+      "address": "7RCz8wb6WXxUhAigok9ttgrVgDFFFbibcirECzWSBauM",
+      "authorityAddress": "55YceCDfyvdcPPozDiMeNp9TpwmL1hdoTEFw5BMNWbpf",
+      "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
+      "reserves": [
+        {
+          "asset": "SOL",
+          "address": "UTABCRXirrbpCNDogCoqEECtM3V44jXGCsK23ZepV3Z",
+          "collateralMintAddress": "AVxnqyCameKsKTCGVKeyJMA7vjHnxJit6afC8AM9MdMj",
+          "collateralSupplyAddress": "9QqRewoWbePkSH919xXn826h67ea1EFAVXhTdiJArDnx",
+          "liquidityAddress": "5cSfC32xBUYqGfkURLGfANuK64naHmMp27jUT7LQSujY",
+          "liquidityFeeReceiverAddress": "5wo1tFpi4HaVKnemqaXeQnBEpezrJXcXvuztYaPhvgC7"
+        },
+        {
+          "asset": "USDC",
+          "address": "EjUgEaPpKMg2nqex9obb46gZQ6Ar9mWSdVKbw9A6PyXA",
+          "collateralMintAddress": "HKijBKC2zKcV2BXA9CuNemmWUhTuFkPLLgvQBP7zrQjL",
+          "collateralSupplyAddress": "8YGu5iFMKHau2XjVBwKiyPjY2rYpbaLMyxfVhM916jPd",
+          "liquidityAddress": "49mYvAcRHFYnHt3guRPsxecFqBAY8frkGSFuXRL3cqfC",
+          "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
+        }
+      ]
     }
   ],
   "oracles": {
@@ -467,6 +492,12 @@
           "oracleAddress": "E7ymZgACaSd1fYLf2V7WkAmFkpRiWfAjm49R7bceny9K",
           "priceAddress": "8JPJJkmDScpcNmBRKGZuPuG2GYAveQgP3t5gFuMymwvF",
           "switchboardFeedAddress": "6SqRewrr5f4ycWy7NvLmNgpXJbhwXrtTc1erL9aq2gP3"
+      },
+      {
+        "asset": "lsIN",
+        "oracleAddress": "nu11111111111111111111111111111111111111111",
+        "priceAddress": "nu11111111111111111111111111111111111111111",
+        "switchboardFeedAddress": "3YUHvezfoeY8JxLB624bnk3mamLDnJZ6VTUs9ezwJTDo"
       }
     ]
   }
