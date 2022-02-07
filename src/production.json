@@ -132,6 +132,12 @@
       "symbol": "FTT",
       "decimals": 8,
       "mintAddress": "EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv"
+    },
+    {
+      "name": "Locked Staked IN",
+      "symbol": "lsIN",
+      "decimals": 9,
+      "mintAddress": "LsinpBtQH68hzHqrvWw4PYbH7wMoAobQAzcvxVHwTLv"
     }
   ],
   "markets": [
@@ -346,25 +352,33 @@
     {
       "name": "Invictus",
       "isPrimary": false,
-      "address": "7RCz8wb6WXxUhAigok9ttgrVgDFFFbibcirECzWSBauM",
-      "authorityAddress": "55YceCDfyvdcPPozDiMeNp9TpwmL1hdoTEFw5BMNWbpf",
+      "address": "5i8SzwX2LjpGUxLZRJ8EiYohpuKgW2FYDFhVjhGj66P1",
+      "authorityAddress": "6N6tqnemGoR5pUdtKKp3FvdD94Gi98f2ySEo1dzZ2Uqv",
       "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
       "reserves": [
         {
-          "asset": "SOL",
-          "address": "UTABCRXirrbpCNDogCoqEECtM3V44jXGCsK23ZepV3Z",
-          "collateralMintAddress": "AVxnqyCameKsKTCGVKeyJMA7vjHnxJit6afC8AM9MdMj",
-          "collateralSupplyAddress": "9QqRewoWbePkSH919xXn826h67ea1EFAVXhTdiJArDnx",
-          "liquidityAddress": "5cSfC32xBUYqGfkURLGfANuK64naHmMp27jUT7LQSujY",
-          "liquidityFeeReceiverAddress": "5wo1tFpi4HaVKnemqaXeQnBEpezrJXcXvuztYaPhvgC7"
+          "asset": "lsIN",
+          "address": "4XYbgZJirfnwjmpJKQgMQEvjncYFi2CsPTFzBguCjCjG",
+          "collateralMintAddress": "5Jk2vER2x9WGAZmVGEafBtkEzjYB4mcvvVHbxMcbprhJ",
+          "collateralSupplyAddress": "734df6ZLSzQhyDyqwk8YaKdG2rWPMP6fdsBfxDREZ1nf",
+          "liquidityAddress": "BQHcDqbe9SC5yXcxwNGozD17CPfUvq6q95Lvfv8ZhRU1",
+          "liquidityFeeReceiverAddress": "FaWVdXqVxcZqW3vdiAouAPxhyK29vWR78ec5GmfayJzc"
         },
         {
           "asset": "USDC",
-          "address": "EjUgEaPpKMg2nqex9obb46gZQ6Ar9mWSdVKbw9A6PyXA",
-          "collateralMintAddress": "HKijBKC2zKcV2BXA9CuNemmWUhTuFkPLLgvQBP7zrQjL",
-          "collateralSupplyAddress": "8YGu5iFMKHau2XjVBwKiyPjY2rYpbaLMyxfVhM916jPd",
-          "liquidityAddress": "49mYvAcRHFYnHt3guRPsxecFqBAY8frkGSFuXRL3cqfC",
+          "address": "AuT5vA4bScsaJBiyNHnAttKToTCHj4Kwi4sg8bCyPPr8",
+          "collateralMintAddress": "DR1b9VzSe8o658UVJL9b6XzqkRmurcmLujpZRaBL3yDU",
+          "collateralSupplyAddress": "2877K885jCdVts6X5Kn7gPbezNPhXufEbheUbVwoZmAi",
+          "liquidityAddress": "GwRqjjkj7JhB4Tqi8PDLKTnESCtBRJwJsGZzg5NQb38W",
           "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
+        },
+        {
+          "asset": "UST",
+          "address": "7MymBKwTPPMC4A9Ktwc1F2V5Xw7Kj3DqvRYUvLk2SF4h",
+          "collateralMintAddress": "5vxqpDHcHhhJBwNdgeFjfJ814qL36S4fJneSihYccZNg",
+          "collateralSupplyAddress": "EKnFN4ehqwdu8RDmZ2hKnsEMJvA2Jnaszbydae8axbMu",
+          "liquidityAddress": "9DboZFVjGtPtzXKg8dy7RMDGr1hmk43BkhVF9Nz8atFc",
+          "liquidityFeeReceiverAddress": "4GctGML68E1kDcvskGTXRPY9ngxmxVnJXjpsJ68YBXPR"
         }
       ]
     }
