@@ -138,6 +138,18 @@
             "symbol": "lsIN",
             "decimals": 9,
             "mintAddress": "LsinpBtQH68hzHqrvWw4PYbH7wMoAobQAzcvxVHwTLv"
+        },
+        {
+            "name": "Step",
+            "symbol": "STEP",
+            "decimals": 9,
+            "mintAddress": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT"
+        },
+        {
+            "name": "Staked Step",
+            "symbol": "xSTEP",
+            "decimals": 9,
+            "mintAddress": "xStpgUCss9piqeFUk2iLVcvJEGhAdJxJQuwLkXP555G"
         }
     ],
     "markets": [
@@ -381,6 +393,46 @@
                     "liquidityFeeReceiverAddress": "4GctGML68E1kDcvskGTXRPY9ngxmxVnJXjpsJ68YBXPR"
                 }
             ]
+        },
+        {
+            "name": "Step",
+            "isPrimary": false,
+            "address": "DxdnNmdWHcW6RGTYiD5ms5f7LNZBaA7Kd1nMfASnzwdY",
+            "authorityAddress": "csotR9rcbLV3bCzBKxNJ3GjYhzH9cXffZX3TAQpw4oG",
+            "reserves": [
+                {
+                    "asset": "STEP",
+                    "address": "C5ozcRb4PJeJvakPeGgm9bgwcL6rPcKPfV95d2owW86C",
+                    "collateralMintAddress": "9XtoqcLnc1psQuTPTGjfEwwabzBeUeFihvyZptcALwph",
+                    "collateralSupplyAddress": "9PJCVs62fyRiQ1v9DqxD83TXDXqHabVeAUW2sHpsG13t",
+                    "liquidityAddress": "CCfF5XivAg682CbZkHw4oMYj9wSTnEUeFLcn4pUjZJ8F",
+                    "liquidityFeeReceiverAddress": "Fzbt2QWmMsK7YW7AAF4nwkJMARpviPXo8CgfBX1oLD4u"
+                },
+                {
+                    "asset": "USDC",
+                    "address": "FCU2wpx3ED1dY7bKszzcyxUVNTduLurUEmCGGv2w3Lfm",
+                    "collateralMintAddress": "7tBwN1tWTNsepwJcuD46zPBu6FuivWMvN2J5zP6HoPYg",
+                    "collateralSupplyAddress": "BPhX4N7r9z9HQTAVDyfvVcYWbjsWiL476vsWAYYFh5Lg",
+                    "liquidityAddress": "E4g9gNiwtxUcdaP8C7Sx99YVArWCceSkTSErpXGCnMuB",
+                    "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
+                },
+                {
+                    "asset": "xSTEP",
+                    "address": "HH9Aig5MAvMNcivGfAbWU5Da9nfiTwBaYJBK2KZyZppn",
+                    "collateralMintAddress": "E1hgwtGqjT4po2vg1LFGvf5XiZgUZBQeabcstQympPPa",
+                    "collateralSupplyAddress": "B4Gsh8FpAuxvVknRny2xSvdt3T1N15RAuDrt3Yg4FDVC",
+                    "liquidityAddress": "38xTjUm1egfkDojm8jesRWtpy9j3fepPAwBgAHZFQMuD",
+                    "liquidityFeeReceiverAddress": "8nzMDB9bp2BNpkL3QSgPEmCpevEhFrb8vigvLqxAzecv"
+                },
+                {
+                    "asset": "SOL",
+                    "address": "7trBAMkVU8dcPQVdScz7VNywZwqnD1rwXkwkVPQJ95bT",
+                    "collateralMintAddress": "7criSZai4hqKukScLUa5W2UV6Q9pjFMdJjQphKavBqur",
+                    "collateralSupplyAddress": "Cw43LkrYXWQUufbP11DKBJBikkxtXeseCuH1WMQDh6q",
+                    "liquidityAddress": "FR1tYTYEcMhBiuETNs1b5DZft2pT6oEJBixDZ1Qe1WHw",
+                    "liquidityFeeReceiverAddress": "5wo1tFpi4HaVKnemqaXeQnBEpezrJXcXvuztYaPhvgC7"
+                }
+            ]
         }
     ],
     "oracles": {
@@ -512,6 +564,16 @@
                 "oracleAddress": "nu11111111111111111111111111111111111111111",
                 "priceAddress": "nu11111111111111111111111111111111111111111",
                 "switchboardFeedAddress": "3YUHvezfoeY8JxLB624bnk3mamLDnJZ6VTUs9ezwJTDo"
+            },
+            {
+                "asset": "STEP",
+                "priceAddress": "nu11111111111111111111111111111111111111111",
+                "switchboardFeedAddress": "4bTCjzmtdRgK4ZvdaxX1Fx1Z3h6iApfM5qoaAhQBJAkj"
+            },
+            {
+                "asset": "xSTEP",
+                "priceAddress": "nu11111111111111111111111111111111111111111",
+                "switchboardFeedAddress": "7whYKCH5zQVQeLqgnWW6qXME3sxQozByaFbhbVwhYMkP"
             }
         ]
     }
