@@ -25,7 +25,6 @@
       "name": "main",
       "address": "$MAIN_MARKET_ADDRESS",
       "authorityAddress": "$MAIN_MARKET_AUTHORITY_ADDRESS",
-      "transferAuthorityAddress": "$MAIN_MARKET_TRANSFER_AUTHORITY_ADDRESS",
       "reserves": [
         {
           "asset": "SOL",
