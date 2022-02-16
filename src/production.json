@@ -158,7 +158,6 @@
       "isPrimary": true,
       "address": "4UpD2fh7xH3VP9QQaXtsS1YY3bxzWhtfpks7FatyKvdY",
       "authorityAddress": "DdZR6zRFiUt4S5mg7AV1uKB2z1f1WzcNYCaTEEWPAuby",
-      "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
       "reserves": [
         {
           "asset": "SOL",
@@ -341,7 +340,6 @@
       "isPrimary": false,
       "address": "7RCz8wb6WXxUhAigok9ttgrVgDFFFbibcirECzWSBauM",
       "authorityAddress": "55YceCDfyvdcPPozDiMeNp9TpwmL1hdoTEFw5BMNWbpf",
-      "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
       "reserves": [
         {
           "asset": "SOL",
@@ -366,7 +364,6 @@
       "isPrimary": false,
       "address": "5i8SzwX2LjpGUxLZRJ8EiYohpuKgW2FYDFhVjhGj66P1",
       "authorityAddress": "6N6tqnemGoR5pUdtKKp3FvdD94Gi98f2ySEo1dzZ2Uqv",
-      "transferAuthorityAddress": "12UzZuy8YsGv8Dj4TfsKmBu3f6unLaU4kp4Zug2tPCe5",
       "reserves": [
         {
           "asset": "lsIN",
@@ -406,7 +403,8 @@
           "collateralMintAddress": "9XtoqcLnc1psQuTPTGjfEwwabzBeUeFihvyZptcALwph",
           "collateralSupplyAddress": "9PJCVs62fyRiQ1v9DqxD83TXDXqHabVeAUW2sHpsG13t",
           "liquidityAddress": "CCfF5XivAg682CbZkHw4oMYj9wSTnEUeFLcn4pUjZJ8F",
-          "liquidityFeeReceiverAddress": "Fzbt2QWmMsK7YW7AAF4nwkJMARpviPXo8CgfBX1oLD4u"
+          "liquidityFeeReceiverAddress": "Fzbt2QWmMsK7YW7AAF4nwkJMARpviPXo8CgfBX1oLD4u",
+          "userSupplyCap": 5000000
         },
         {
           "asset": "USDC",
@@ -422,7 +420,8 @@
           "collateralMintAddress": "E1hgwtGqjT4po2vg1LFGvf5XiZgUZBQeabcstQympPPa",
           "collateralSupplyAddress": "B4Gsh8FpAuxvVknRny2xSvdt3T1N15RAuDrt3Yg4FDVC",
           "liquidityAddress": "38xTjUm1egfkDojm8jesRWtpy9j3fepPAwBgAHZFQMuD",
-          "liquidityFeeReceiverAddress": "8nzMDB9bp2BNpkL3QSgPEmCpevEhFrb8vigvLqxAzecv"
+          "liquidityFeeReceiverAddress": "8nzMDB9bp2BNpkL3QSgPEmCpevEhFrb8vigvLqxAzecv",
+          "userSupplyCap": 5000000
         },
         {
           "asset": "SOL",

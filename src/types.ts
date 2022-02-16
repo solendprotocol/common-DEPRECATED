@@ -27,7 +27,6 @@ export interface Market {
   name: string;
   address: string;
   authorityAddress: string;
-  transferAuthorityAddress: string;
   reserves: Reserve[];
   isPrimary?: boolean;
 }
