@@ -150,6 +150,12 @@
       "symbol": "xSTEP",
       "decimals": 9,
       "mintAddress": "xStpgUCss9piqeFUk2iLVcvJEGhAdJxJQuwLkXP555G"
+    },
+    {
+      "name": "Bonfida",
+      "symbol": "FIDA",
+      "decimals": 6,
+      "mintAddress": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp"
     }
   ],
   "markets": [
@@ -432,6 +438,39 @@
           "liquidityFeeReceiverAddress": "5wo1tFpi4HaVKnemqaXeQnBEpezrJXcXvuztYaPhvgC7"
         }
       ]
+    },
+    {
+      "name": "Bonfida",
+      "isPrimary": false,
+      "address": "91taAt3bocVZwcChVgZTTaQYt2WpBVE3M9PkWekFQx4J",
+      "authorityAddress": "76Asux4XZYqrP61G52eRZRQ6GCUPQUmYme3hTCaNgmxv",
+      "reserves": [
+        {
+          "asset": "USDC",
+          "address": "EBRtjgHJiEBYnQ5QzTGcBxTwbapEQ3bvh1BrgaGzhX9e",
+          "collateralMintAddress": "7ziVqwra9BTyzXwFTL6JBMY4LtHdQZeQ9cqLkTKeYvoq",
+          "collateralSupplyAddress": "CoAKRsiTBt9vQK5irMS3HmLLRKEtSNuGLmb8RaxKnK7P",
+          "liquidityAddress": "HG9yB9xfeqxy4ZntKkLt8mzJ71ZsAf5cpsvybszZJ6Ni",
+          "liquidityFeeReceiverAddress": "61bnpU4YGZe6iHrg44HT1B3v4bPyvxwfqRixwP2ft6t6"
+        },
+        {
+          "asset": "SOL",
+          "address": "3WPYWiZtc2uJq1JiF3Z3KswicFAp5VrFgEHwP3CkuDUn",
+          "collateralMintAddress": "2fHFudEbottFSbpe8oX5KyCDrnx8tfgL8PFj67iz9Y2h",
+          "collateralSupplyAddress": "AmVdrQeciRQiuisGKuuQrno6ZpygGimBvqFUwBTdrAZn",
+          "liquidityAddress": "urW2JA3FeBHjug7ingkuWh4rWJv3X8k2fnbQg2g8bNx",
+          "liquidityFeeReceiverAddress": "5wo1tFpi4HaVKnemqaXeQnBEpezrJXcXvuztYaPhvgC7"
+        },
+        {
+          "asset": "FIDA",
+          "address": "A3ZhKMuwHygRqjXiMDqM2PyeT35Z1LiDUqwrtjiHn89M",
+          "collateralMintAddress": "ArohPh341JrQsWk7paiUwJKDe4MjvhtE5XxjYUoiM2fH",
+          "collateralSupplyAddress": "FuFEvCPuCkCPn9rW3uZ7bcmLERxFzFJPRfSSyAyZNLzb",
+          "liquidityAddress": "CaVSnSWA1Tpbm79YY2SVtkkKp89AiDxifgdxoWyZLSom",
+          "liquidityFeeReceiverAddress": "61bnpU4YGZe6iHrg44HT1B3v4bPyvxwfqRixwP2ft6t6",
+          "userSupplyCap": 300000
+        }
+      ]
     }
   ],
   "oracles": {
@@ -573,6 +612,11 @@
         "asset": "xSTEP",
         "priceAddress": "nu11111111111111111111111111111111111111111",
         "switchboardFeedAddress": "7whYKCH5zQVQeLqgnWW6qXME3sxQozByaFbhbVwhYMkP"
+      },
+      {
+        "asset": "FIDA",
+        "priceAddress": "ETp9eKXVv1dWwHSpsXRUuXHmw24PwRkttCGVgpZEY9zF",
+        "switchboardFeedAddress": "GyiFJtWLYGGTCNTpnHCVKinzWpwLJN3PnscsRdqypFAL"
       }
     ]
   }
