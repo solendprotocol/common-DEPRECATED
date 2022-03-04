@@ -168,6 +168,12 @@
             "symbol": "POLIS",
             "decimals": 8,
             "mintAddress": "poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk"
+        },
+        {
+            "name": "Samoyed Coin",
+            "symbol": "SAMO",
+            "decimals": 9,
+            "mintAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
         }
     ],
     "markets": [
@@ -517,6 +523,30 @@
                     "userSupplyCap": 300000
                 }
             ]
+        },
+        {
+            "name": "Dog",
+            "isPrimary": false,
+            "address": "HASr6hiYVoRcVXk3GttC4PjBBPQ3sGYDzE7HSPJdcke6",
+            "authorityAddress": "DLokPHis2W5f3jQ4Kgv5PQHebkun2KQtsXcFidhR19Za",
+            "reserves": [
+                {
+                    "asset": "SAMO",
+                    "address": "HwZSKqyo2QQ2YCzF282ZrpH4JRQWf3Qad1fWHtKCDZjx",
+                    "collateralMintAddress": "E9qQ9pdZjk9zvm7Qp3UUynddJMadK85F8ZNqWyeUHcjV",
+                    "collateralSupplyAddress": "DzERiPrzkwRi4pG5SsWaevVr2jSNhRkwNCibx5eP5K1g",
+                    "liquidityAddress": "GHnH17QEJvVv7bqzqrhPMrLpTvdbZW4e1jxn8ZnbgUFF",
+                    "liquidityFeeReceiverAddress": "Ag3ZHEVDZPUkTQSeCs6BMmh7xweakVvUuef76tT7Syt9"
+                },
+                {
+                    "asset": "USDC",
+                    "address": "5VuBkDYXcV1svRm1BKShA2wqKsszYWjPwoT4Q32YXcp3",
+                    "collateralMintAddress": "9zCPUDEF5oGymtihmPQL6bUUxarno7w6qzM7Amiyh9bw",
+                    "collateralSupplyAddress": "5YjjhzNHQoBdisyMrxhmt2nwy8yoQ9zA7o2ruUZg894g",
+                    "liquidityAddress": "yumozQYL4ddiEDLhpUqa7o4UpUg46pkbmGsEF5cJibs",
+                    "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
+                }
+            ]
         }
     ],
     "oracles": {
@@ -673,6 +703,11 @@
                 "asset": "POLIS",
                 "priceAddress": "nu11111111111111111111111111111111111111111",
                 "switchboardFeedAddress": "3wFcT6hG5RYarNS3Z8FwoanBRm4PN4MBhkCiJGKWBa3v"
+            },
+            {
+                "asset": "SAMO",
+                "priceAddress": "nu11111111111111111111111111111111111111111",
+                "switchboardFeedAddress": "DCXJ2dhdfh6UZH5zgMMHmzXTa52kbnXU3R7eDWD7jLH5"
             }
         ]
     }

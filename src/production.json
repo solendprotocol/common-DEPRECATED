@@ -158,16 +158,22 @@
       "mintAddress": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp"
     },
     {
-        "name": "Star Atlas",
-        "symbol": "ATLAS",
-        "decimals": 8,
-        "mintAddress": "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx"
+      "name": "Star Atlas",
+      "symbol": "ATLAS",
+      "decimals": 8,
+      "mintAddress": "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx"
     },
     {
-        "name": "Star Atlas DAO",
-        "symbol": "POLIS",
-        "decimals": 8,
-        "mintAddress": "poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk"
+      "name": "Star Atlas DAO",
+      "symbol": "POLIS",
+      "decimals": 8,
+      "mintAddress": "poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk"
+    },
+    {
+      "name": "Samoyed Coin",
+      "symbol": "SAMO",
+      "decimals": 9,
+      "mintAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
     }
   ],
   "markets": [
@@ -485,38 +491,62 @@
       ]
     },
     {
-        "name": "Star Atlas",
-        "isPrimary": false,
-        "address": "99S4iReDsyxKDViKdXQKWDcB6C3waDmfPWWyb5HAbcZF",
-        "authorityAddress": "2vhoVMQWEc12dUEEcJ6w8j3ZnrA4Tk6w8pPFhoWfVsUy",
-        "reserves": [
-            {
-                "asset": "ATLAS",
-                "address": "8RX5oDxnydPPsA92epWnyXrrM26w7JgAQoVVt9kbiZwq",
-                "collateralMintAddress": "EHFzasjYT1VmeKtvPtPCytJugQFBoYdhXXBt2WazinfY",
-                "collateralSupplyAddress": "GCagCmPq1uUV43DtWSd4rKh3eP8JdxE2XSKCUBJzyK2X",
-                "liquidityAddress": "DGMYGHmQiCs9H1MUxe57H78Ea1jwkAynzEfDKXUkF6ZT",
-                "liquidityFeeReceiverAddress": "3iyLRAJyLS6QMkVs4aD5KiUBDizjxtqHv4RbX3hGCrRz",
-                "userSupplyCap": 20000000
-            },
-            {
-                "asset": "USDC",
-                "address": "5hVVs474TRejwwfqsecNp97riQGDtSmhTV6jiWSxJfWR",
-                "collateralMintAddress": "HwdCShcytebyeLaU79FB5cD4RDJVWnN7vs5kCJr6nKf7",
-                "collateralSupplyAddress": "49HFHN2waPusSTK6dib6Pr8gjgGGkTjziwNczq7kDeRx",
-                "liquidityAddress": "3wKtbpbm5KnG3xUp51gP5MbCynPJtYvn4ZUwmm2KHBeR",
-                "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
-            },
-            {
-                "asset": "POLIS",
-                "address": "29Znf6g5qmRfTdnbyRQUWvMt94Gzn2KPCzY2ixxY9Mnt",
-                "collateralMintAddress": "ZeTubq2tcT9s8sPGKihum5scLGoQDqtYd6BYAy15y2P",
-                "collateralSupplyAddress": "3E1Cinh4vYhqNKQmSBDTK8k6pxbLSr94eXWVDGvbatRP",
-                "liquidityAddress": "BnooBAnfoqbixXd7xJwiYBn3vU4UyE8G4uHAsfinCg3D",
-                "liquidityFeeReceiverAddress": "913RkijsY8rQxyuuoHs5hd4YETdhXBNwwd648ABEqXT4",
-                "userSupplyCap": 300000
-            }
-        ]
+      "name": "Star Atlas",
+      "isPrimary": false,
+      "address": "99S4iReDsyxKDViKdXQKWDcB6C3waDmfPWWyb5HAbcZF",
+      "authorityAddress": "2vhoVMQWEc12dUEEcJ6w8j3ZnrA4Tk6w8pPFhoWfVsUy",
+      "reserves": [
+        {
+          "asset": "ATLAS",
+          "address": "8RX5oDxnydPPsA92epWnyXrrM26w7JgAQoVVt9kbiZwq",
+          "collateralMintAddress": "EHFzasjYT1VmeKtvPtPCytJugQFBoYdhXXBt2WazinfY",
+          "collateralSupplyAddress": "GCagCmPq1uUV43DtWSd4rKh3eP8JdxE2XSKCUBJzyK2X",
+          "liquidityAddress": "DGMYGHmQiCs9H1MUxe57H78Ea1jwkAynzEfDKXUkF6ZT",
+          "liquidityFeeReceiverAddress": "3iyLRAJyLS6QMkVs4aD5KiUBDizjxtqHv4RbX3hGCrRz",
+          "userSupplyCap": 20000000
+        },
+        {
+          "asset": "USDC",
+          "address": "5hVVs474TRejwwfqsecNp97riQGDtSmhTV6jiWSxJfWR",
+          "collateralMintAddress": "HwdCShcytebyeLaU79FB5cD4RDJVWnN7vs5kCJr6nKf7",
+          "collateralSupplyAddress": "49HFHN2waPusSTK6dib6Pr8gjgGGkTjziwNczq7kDeRx",
+          "liquidityAddress": "3wKtbpbm5KnG3xUp51gP5MbCynPJtYvn4ZUwmm2KHBeR",
+          "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
+        },
+        {
+          "asset": "POLIS",
+          "address": "29Znf6g5qmRfTdnbyRQUWvMt94Gzn2KPCzY2ixxY9Mnt",
+          "collateralMintAddress": "ZeTubq2tcT9s8sPGKihum5scLGoQDqtYd6BYAy15y2P",
+          "collateralSupplyAddress": "3E1Cinh4vYhqNKQmSBDTK8k6pxbLSr94eXWVDGvbatRP",
+          "liquidityAddress": "BnooBAnfoqbixXd7xJwiYBn3vU4UyE8G4uHAsfinCg3D",
+          "liquidityFeeReceiverAddress": "913RkijsY8rQxyuuoHs5hd4YETdhXBNwwd648ABEqXT4",
+          "userSupplyCap": 300000
+        }
+      ]
+    },
+    {
+      "name": "Dog",
+      "isPrimary": false,
+      "address": "HASr6hiYVoRcVXk3GttC4PjBBPQ3sGYDzE7HSPJdcke6",
+      "authorityAddress": "DLokPHis2W5f3jQ4Kgv5PQHebkun2KQtsXcFidhR19Za",
+      "reserves": [
+        {
+          "asset": "SAMO",
+          "address": "HwZSKqyo2QQ2YCzF282ZrpH4JRQWf3Qad1fWHtKCDZjx",
+          "collateralMintAddress": "E9qQ9pdZjk9zvm7Qp3UUynddJMadK85F8ZNqWyeUHcjV",
+          "collateralSupplyAddress": "DzERiPrzkwRi4pG5SsWaevVr2jSNhRkwNCibx5eP5K1g",
+          "liquidityAddress": "GHnH17QEJvVv7bqzqrhPMrLpTvdbZW4e1jxn8ZnbgUFF",
+          "liquidityFeeReceiverAddress": "Ag3ZHEVDZPUkTQSeCs6BMmh7xweakVvUuef76tT7Syt9"
+        },
+        {
+          "asset": "USDC",
+          "address": "5VuBkDYXcV1svRm1BKShA2wqKsszYWjPwoT4Q32YXcp3",
+          "collateralMintAddress": "9zCPUDEF5oGymtihmPQL6bUUxarno7w6qzM7Amiyh9bw",
+          "collateralSupplyAddress": "5YjjhzNHQoBdisyMrxhmt2nwy8yoQ9zA7o2ruUZg894g",
+          "liquidityAddress": "yumozQYL4ddiEDLhpUqa7o4UpUg46pkbmGsEF5cJibs",
+          "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
+        }
+      ]
     }
   ],
   "oracles": {
@@ -673,6 +703,11 @@
           "asset": "POLIS",
           "priceAddress": "nu11111111111111111111111111111111111111111",
           "switchboardFeedAddress": "3wFcT6hG5RYarNS3Z8FwoanBRm4PN4MBhkCiJGKWBa3v"
+      },
+      {
+        "asset": "SAMO",
+        "priceAddress": "nu11111111111111111111111111111111111111111",
+        "switchboardFeedAddress": "DCXJ2dhdfh6UZH5zgMMHmzXTa52kbnXU3R7eDWD7jLH5"
       }
     ]
   }
