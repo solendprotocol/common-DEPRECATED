@@ -102,6 +102,48 @@
       "symbol": "FTT",
       "decimals": 8,
       "mintAddress": "EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv"
+    },
+    {
+      "name": "Locked Staked IN",
+      "symbol": "lsIN",
+      "decimals": 9,
+      "mintAddress": "LsinpBtQH68hzHqrvWw4PYbH7wMoAobQAzcvxVHwTLv"
+    },
+    {
+      "name": "Step",
+      "symbol": "STEP",
+      "decimals": 9,
+      "mintAddress": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT"
+    },
+    {
+      "name": "Staked Step",
+      "symbol": "xSTEP",
+      "decimals": 9,
+      "mintAddress": "xStpgUCss9piqeFUk2iLVcvJEGhAdJxJQuwLkXP555G"
+    },
+    {
+      "name": "Bonfida",
+      "symbol": "FIDA",
+      "decimals": 6,
+      "mintAddress": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp"
+    },
+    {
+      "name": "Star Atlas",
+      "symbol": "ATLAS",
+      "decimals": 8,
+      "mintAddress": "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx"
+    },
+    {
+      "name": "Star Atlas DAO",
+      "symbol": "POLIS",
+      "decimals": 8,
+      "mintAddress": "poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk"
+    },
+    {
+      "name": "Samoyed Coin",
+      "symbol": "SAMO",
+      "decimals": 9,
+      "mintAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
     }
   ],
   "markets": [
