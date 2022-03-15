@@ -156,6 +156,18 @@
             "symbol": "SAMO",
             "decimals": 9,
             "mintAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
+        },
+        {
+            "name": "Saber USDT-USDC LP",
+            "symbol": "USDT-USDC",
+            "decimals": 6,
+            "mintAddress": "2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf"
+        },
+        {
+            "name": "Saber mSOL-SOL LP",
+            "symbol": "mSOL-SOL",
+            "decimals": 9,
+            "mintAddress": "SoLEao8wTzSfqhuou8rcYsVoLjthVmiXuEjzdNPMnCz"
         }
     ],
     "markets": [
