@@ -174,6 +174,30 @@
             "symbol": "SAMO",
             "decimals": 9,
             "mintAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
+        },
+        {
+            "name": "PAI (Parrot USD)",
+            "symbol": "PAI",
+            "decimals": 6,
+            "mintAddress": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS"
+        },
+        {
+            "name": "UXD Stablecoin",
+            "symbol": "UXD",
+            "decimals": 6,
+            "mintAddress": "7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT"
+        },
+        {
+            "name": "Cashio Dollar",
+            "symbol": "CASH",
+            "decimals": 6,
+            "mintAddress": "CASHVDm2wsJXfhj6VWxb7GiMdoLc17Du7paH4bNr5woT"
+        },
+        {
+            "name": "USDH Hubble Stablecoin",
+            "symbol": "USDH",
+            "decimals": 6,
+            "mintAddress": "USDH1SM1ojwWUga67PGrgFWUHibbjqMvuMaDkRJTgkX"
         }
     ],
     "markets": [
@@ -547,6 +571,70 @@
                     "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
                 }
             ]
+        },
+        {
+            "name": "Stable",
+            "isPrimary": false,
+            "address": "GktVYgkstojYd8nVXGXKJHi7SstvgZ6pkQqQhUPD7y7Q",
+            "authorityAddress": "Ej4KxxUz73edQzjfsPVWvYxT5eyhQoWoXpo7BYm2Ejhj",
+            "reserves": [
+                {
+                    "asset": "USDT",
+                    "address": "aMyCaGf7MwsqpgoeioVGXZytadsjFZ6euuYSadLcXbY",
+                    "collateralMintAddress": "9wCxum1oB9JpgPUuVmsPTqDDvKeQqP3rnGFg3GEMrUGT",
+                    "collateralSupplyAddress": "8MaWP9fsX9FrzPGLsxvUfNu8Sr5rR3M8rerwHAQpFxsn",
+                    "liquidityAddress": "E2cfK7KdG5NRzsFzD8o3pib7af7DmFLrfP6WbU44H3Cw",
+                    "liquidityFeeReceiverAddress": "Cpyk5WRGmdK2yFGTJCrmgyABPiNEF5eCyCMMZLxpdkXu"
+                },
+                {
+                    "asset": "PAI",
+                    "address": "DyJZX45rgh9nADa19tsFeSV69ZwvX4UqPoPP39mdBiDq",
+                    "collateralMintAddress": "Bd5pFCJf9AafuXZkfkU6SDZVpeE5xAqX69bs8nDSxd2J",
+                    "collateralSupplyAddress": "4xRmRbur3HAc4nNLaAYKgZDXiEtCVc2a9wA5TSsmS1qP",
+                    "liquidityAddress": "9RZi6AMPGmBZ9isLkQikvLwANNQ6UWZsyv9537KLo8EV",
+                    "liquidityFeeReceiverAddress": "8fXGHJ6ArM9cyaZkaBFsLDM4W5HdPofjMFoHgX3Bb7K7"
+                },
+                {
+                    "asset": "UXD",
+                    "address": "27YJsVpHWvjS8BKaz7Gd8unSFJAMrh6gPEFjqhYxn9AE",
+                    "collateralMintAddress": "3R3mzc8o9oXCsBX2dKG7Bzc3ov1m7t4UHtb81ktAeCxY",
+                    "collateralSupplyAddress": "6RTTJkwZ7NuK4JaJnnaUgqU78gaW3A8McDTfiGsBBbLX",
+                    "liquidityAddress": "9v6c1QVoyQxX6hWKGCYLwcunc3JfMWQLcMS3KWR5Kqhf",
+                    "liquidityFeeReceiverAddress": "AsJ7wz4a4cbP9qkX4iadD4jbfr5mcDV9D8SZdD37pm2t"
+                },
+                {
+                    "asset": "CASH",
+                    "address": "9nPHY19ubsyWc1zk1jqpXUfoTERqKd7FhcZ9G18VZ2Sw",
+                    "collateralMintAddress": "7xMDbrMHDDiJidwLSfaSmQJYJPPKGHJYPMo8wpbKo7k6",
+                    "collateralSupplyAddress": "cwzD5b76GPLFFxu7zpHu5hHAC3Fe3D7nPdjE7gTbRPU",
+                    "liquidityAddress": "6kRZTv5StDQofdzyv4jyrRmeDvH5m4jFPEzAkd6oQcrB",
+                    "liquidityFeeReceiverAddress": "4yvNq4hHazrmVdptBH78rvNXnYkLfm7w5ZrBCd2UDtht"
+                },
+                {
+                    "asset": "UST",
+                    "address": "A57FVdDgcyz1NserCSMSWaWDyfWZw77ikfXvE2cwPF18",
+                    "collateralMintAddress": "5czXDWSVFjH16hJGvwZTE8sMbh4vQggZ1gMhyVE4RWgx",
+                    "collateralSupplyAddress": "4VDZMvxihqGggUYGiDbce2WTgsKDBeN47128Bkv72vsc",
+                    "liquidityAddress": "GRcfCPgSMBKuJicp76qRRdpFQnPnZ5KzHB2wD5nbJ3Wx",
+                    "liquidityFeeReceiverAddress": "4GctGML68E1kDcvskGTXRPY9ngxmxVnJXjpsJ68YBXPR"
+                },
+                {
+                    "asset": "USDC",
+                    "address": "JCRDg9T5mUUxazdJ2nGWDN2pdcXVQc5VM8XDp1DW6Aoa",
+                    "collateralMintAddress": "4JZ6PXqRDp8jQxXUYX9cbAzHi6uzZk856aoAqPGdV5Da",
+                    "collateralSupplyAddress": "7JF8e93t52SGFUHzMt5cD7vte4b8gWZHY99GLziAUeiP",
+                    "liquidityAddress": "z7yTesDCUkvheHnULMjS6dggiiVczpX5JjfTx5atRgQ",
+                    "liquidityFeeReceiverAddress": "5Gdxn4yquneifE6uk9tK8X4CqHfWKjW2BvYU25hAykwP"
+                },
+                {
+                    "asset": "USDH",
+                    "address": "NoTf6a9khWa5cCh6v5RRronH7YuatY7gDWmdKUPoBhM",
+                    "collateralMintAddress": "DE9WN39kGuqZwsBpmd8Fs8F7b4T38nzpiNo8DseznLBU",
+                    "collateralSupplyAddress": "3WKotLKSFoNjPAymuP3HdkkRmoQE7cY1JrL7vnTCMWRW",
+                    "liquidityAddress": "BMgsTqMrAYg2mvpqWYYkzUDjhVmipZjVMGRFE9z5y8GF",
+                    "liquidityFeeReceiverAddress": "5ZBZ37C9BiEHarAcnWeCyLwp8E1YnVQ7AWHRZwhhtTpR"
+                }
+            ]
         }
     ],
     "oracles": {
@@ -708,6 +796,26 @@
                 "asset": "SAMO",
                 "priceAddress": "nu11111111111111111111111111111111111111111",
                 "switchboardFeedAddress": "DCXJ2dhdfh6UZH5zgMMHmzXTa52kbnXU3R7eDWD7jLH5"
+            },
+            {
+                "asset": "PAI",
+                "priceAddress": "nu11111111111111111111111111111111111111111",
+                "switchboardFeedAddress": "G26LmGqGvoggYQm2zEKD15rL4LutkZFrtP8mRPd6gPjk"
+            },
+            {
+                "asset": "UXD",
+                "priceAddress": "nu11111111111111111111111111111111111111111",
+                "switchboardFeedAddress": "Lj3y2beRYhCaQQH9SYjmMJv3uuTcqpCJjQYe4829FAL"
+            },
+            {
+                "asset": "CASH",
+                "priceAddress": "nu11111111111111111111111111111111111111111",
+                "switchboardFeedAddress": "EctBbFDkojNs7U4Nm6G5k3HUiLUi1vaS89n2iog1c4bL"
+            },
+            {
+                "asset": "USDH",
+                "priceAddress": "nu11111111111111111111111111111111111111111",
+                "switchboardFeedAddress": "37NFcKPTgqUVx3gwTQ4c2Q94oJWk2xZy3NQUXtDixReb"
             }
         ]
     }
